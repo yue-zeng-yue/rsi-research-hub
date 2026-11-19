@@ -14,13 +14,29 @@ Missing metadata or official code is recorded as `Not verified`, with a reason. 
 
 ## Recommended reading routes
 
-**Concepts:** Gödel Machines → STaR → STOP → SICA → DGM → Hyperagents. The route distinguishes formal self-rewriting, self-training, persistent code modification, and editable improvement mechanisms.
+### Concepts
 
-**Harness methods:** GEPA → Meta-Harness → AHE → Harness² → RRSI → SoL-Pi. Compare edit surfaces, evidence supplied to the proposer, acceptance rules, and total cost.
+[Gödel Machines](foundations/godel-machines.md) → [STaR](foundations/star.md) → [STOP](foundations/stop.md) → [SICA](2025/sica.md) → [DGM](2025/dgm.md) → [Hyperagents](2026/hyperagents.md).
 
-**Evidence first:** Updating versus Benefit → Rethinking Evaluation → HDA → Auditing the Product → SelfImprove-Bench → The RSI Tax → TRUST. These papers help determine what an improvement claim establishes.
+Distinguish formal self-rewriting, self-training, persistent code modification, and editable improvement mechanisms.
 
-**Co-evolution and meta-learning:** SIA → HarnessForge → WHALE → on-policy correction → HarnessAdapt-RL → JoMoHa → HMED → SIM. Read the [trend report](../docs/research-trends.md) and four research proposals alongside them; this is a conceptual route rather than a publication chronology.
+### Harness methods
+
+[GEPA](2025/gepa.md) → [Meta-Harness](2026/meta-harness.md) → [AHE](2026/ahe.md) → [Harness²](2026/harness2.md) → [RRSI](2026/rrsi.md) → [SoL-Pi](2026/sol-pi.md).
+
+Compare edit surfaces, evidence supplied to the proposer, acceptance rules, and total cost.
+
+### Evidence first
+
+[Updating versus Benefit](2026/harness-updating-not-benefit.md) → [Rethinking Evaluation](2026/rethinking-evaluation.md) → [HDA](2026/harness-delta-attribution.md) → [Auditing the Product](2026/auditing-product-recursion.md) → [SelfImprove-Bench](2026/selfimprove-bench.md) → [The RSI Tax](2026/rsi-tax.md) → [TRUST](2026/trust.md).
+
+Determine what an improvement claim establishes, and which comparison is still missing.
+
+### Co-evolution and meta-learning
+
+[SIA](2026/sia.md) → [HarnessForge](2026/harnessforge.md) → [WHALE](2026/whale.md) → [On-policy correction](2026/co-evolving-harnesses-models.md) → [HarnessAdapt-RL](2026/harnessadapt-rl.md) → [JoMoHa](2026/jomoha.md) → [HMED](2026/hmed.md) → [SIM](2026/sim.md).
+
+Read the [trend report](../docs/research-trends.md) and four research proposals alongside them; this is a conceptual route rather than a publication chronology.
 
 ## Search and update policy
 

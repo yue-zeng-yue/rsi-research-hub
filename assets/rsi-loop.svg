@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="276" viewBox="0 0 1280 276" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">The recursive improvement loop</title>
+  <desc id="desc">Propose a model, harness, or improver change. Evaluate quality, transfer, and cost. Retain an admitted candidate. Feed retained state into the next improvement round. Recursion is a mechanism, not proof of a better improver.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="276" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D172B"/><stop offset="1" stop-color="#15172F"/>
+    </linearGradient>
+    <linearGradient id="return" x1="220" y1="216" x2="1060" y2="216" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#69DDE7"/><stop offset="0.5" stop-color="#7AA7F6"/><stop offset="1" stop-color="#B697EC"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="1279" height="275" rx="20" fill="url(#bg)" stroke="#2D3B58"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <text x="40" y="39" font-size="14" font-weight="600" letter-spacing="3" fill="#8DA4C9">THE RECURSIVE LOOP</text>
+    <g>
+      <rect x="40" y="65" width="344" height="107" rx="14" fill="#122839" stroke="#2A5A6D"/>
+      <circle cx="73" cy="99" r="5" fill="#7DE3EB"/>
+      <text x="91" y="108" font-size="27" font-weight="600" fill="#BEF0F3">Propose</text>
+      <text x="64" y="145" font-size="19" fill="#A1BACF">Model · harness · improver</text>
+    </g>
+    <g>
+      <rect x="468" y="65" width="344" height="107" rx="14" fill="#162540" stroke="#3A527D"/>
+      <circle cx="501" cy="99" r="5" fill="#90B9FF"/>
+      <text x="519" y="108" font-size="27" font-weight="600" fill="#CFDFFF">Evaluate</text>
+      <text x="492" y="145" font-size="19" fill="#A7BBD9">Quality · transfer · cost</text>
+    </g>
+    <g>
+      <rect x="896" y="65" width="344" height="107" rx="14" fill="#25213F" stroke="#554A78"/>
+      <circle cx="929" cy="99" r="5" fill="#C5A7F9"/>
+      <text x="947" y="108" font-size="27" font-weight="600" fill="#E0D2FF">Retain</text>
+      <text x="920" y="145" font-size="19" fill="#BDB2D5">Admit · preserve · reuse</text>
+    </g>
+    <path d="M398 118h54m-8-6 8 6-8 6M826 118h54m-8-6 8 6-8 6" stroke="#7893C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1068 184v22q0 18-18 18H230q-18 0-18-18v-22m-6 8 6-8 6 8" stroke="url(#return)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="433" y="208" width="414" height="32" rx="16" fill="#111B30"/>
+    <text x="640" y="230" text-anchor="middle" font-size="18" font-weight="500" fill="#A9BEE0">Retained state shapes the next round</text>
+    <text x="640" y="262" text-anchor="middle" font-size="13" fill="#8398BC">Conceptual mechanism · Improved-improver claims require separate controlled evaluation</text>
+  </g>
+</svg>

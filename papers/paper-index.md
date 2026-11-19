@@ -6,6 +6,8 @@ First-publication year determines placement. Exact author lists, affiliations, v
 
 Canonical metadata: [papers.json](../data/papers.json). Citation export: [references.bib](../references.bib). Verification scope: [source audit](../docs/source-audit.md).
 
+**Jump to:** [2026](#2026) · [2025](#2025) · [Historical foundations](#historical-foundations) · [Reading routes](README.md) · [Hub home](../README.md)
+
 ## 2026
 
 | First public date | Paper and review | Area | Primary source | Evidence boundary |

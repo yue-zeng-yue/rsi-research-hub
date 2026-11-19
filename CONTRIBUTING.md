@@ -26,6 +26,12 @@ Add the review under the first-publication year, or `papers/foundations/` for pr
 
 Update [paper-index.md](papers/paper-index.md), [references.bib](references.bib), and affected synthesis documents. Do not silently replace a reviewed version with a newer one. Identify changes to title, authors, experimental setup, or conclusions. Explain consequential corrections in the pull request.
 
+## Homepage and visual maintenance
+
+Keep the homepage concise and preserve its navigation, research map, and evidence labels. When admitting papers, update the reviewed-paper count in the homepage, paper index, and review guide together. Refresh the homepage's four recent entries from admitted records in `data/papers.json`, ordered by first publication date; do not present an old paper's revision date as a new publication. Advance the review cutoff only after completing the corresponding source review. Discovery-only leads do not belong in the recent-reviewed table.
+
+The banners in `assets/` are self-contained SVGs with a dark navy, cyan, blue, and violet palette. Keep changing paper counts and dates in selectable Markdown rather than in illustrations. Preserve image descriptions and text equivalents for diagrams. Use GitHub-supported Markdown and HTML; avoid external font, script, and image-service dependencies. Check image paths, heading anchors, collapsed sections, and the rendered homepage when changing layout.
+
 ## Research and experiment contributions
 
 Research ideas require a nearest-work comparison and a falsifiable distinction. Avoid claiming originality before literature review and controlled results. Follow the [evaluation protocol](experiments/evaluation-protocol.md), use the [experiment report](templates/experiment-report.md), and distinguish planned, smoke-tested, executed, analyzed, and independently reproduced stages.

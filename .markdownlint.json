@@ -1,5 +1,6 @@
 {
   "MD013": false,
   "MD024": { "siblings_only": true },
+  "MD033": { "allowed_elements": ["h1", "h3", "p", "img", "strong", "br", "a", "table", "tr", "td", "details", "summary", "sub"] },
   "MD060": false
 }

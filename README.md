@@ -1,12 +1,74 @@
-# RSI Research Hub
+<h1 align="center">
+  <img src="assets/rsi-hero.svg" alt="RSI Research Hub — understanding systems that improve themselves" width="1280">
+</h1>
 
-A research hub for **Recursive Self-Improvement, Agent Harness Evolution, Meta-Learning, and Model–Harness Co-Evolution**.
+<p align="center">
+  <strong>Primary-source reviews. Testable hypotheses. Reproducible protocols.</strong><br>
+  Recursive self-improvement · Agent harness evolution · Model–harness co-evolution
+</p>
 
-This repository connects primary-source literature review to research-gap analysis, algorithm design, reproducible evaluation, and eventual academic publication. Its purpose is to explain **what improves, why it improves, what the evidence supports, and which experiments could establish a new contribution**.
+<p align="center">
+  <a href="papers/paper-index.md"><strong>Paper library</strong></a> &nbsp; · &nbsp;
+  <a href="docs/research-trends.md"><strong>Research trends</strong></a> &nbsp; · &nbsp;
+  <a href="experiments/benchmarks.md"><strong>Benchmarks</strong></a> &nbsp; · &nbsp;
+  <a href="ROADMAP.md"><strong>Roadmap</strong></a>
+</p>
 
-**Review cutoff:** November 19, 2026. **Current stage:** literature and protocol development. **Independent scientific reproductions:** none. The repository contains **36 full paper reviews**, four unvalidated algorithm proposals, and six benchmark guides. It is a curated research snapshot, not an exhaustive census or a claim that general RSI has been achieved.
+| Reviewed papers | Research areas | Algorithm proposals | Benchmark guides |
+| :---: | :---: | :---: | :---: |
+| **[36](papers/paper-index.md)** | **[5](#research-map)** | **[4](#from-evidence-to-experiments)** | **[6](experiments/benchmarks.md)** |
 
-## What is recursive self-improvement?
+This hub connects the RSI literature to critical synthesis, algorithm design, and controlled evaluation. We ask **what improves, why it improves, what the evidence supports, and which experiments could establish a new contribution**.
+
+> **Research snapshot · November 19, 2026**
+>
+> Literature and protocol development. Scientific results remain author-reported; **no independent reproductions have been run**. The four algorithm proposals are unvalidated hypotheses. See the [source audit](docs/source-audit.md) for scope and limitations.
+
+## Start exploring
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>01 / Understand the field</h3>
+      <p>Separate self-improvement, recursion, and evidence for a better improver.</p>
+      <a href="docs/rsi-fundamentals.md">Foundations →</a> &nbsp; <a href="docs/research-trends.md">Trends →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>02 / Read the literature</h3>
+      <p>Explore 36 structured reviews with source locators, limitations, and reproduction status.</p>
+      <a href="papers/paper-index.md">Paper index →</a> &nbsp; <a href="papers/README.md">Reading routes →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>03 / Develop a hypothesis</h3>
+      <p>Connect unresolved questions to baselines, falsifiable predictions, and novelty checks.</p>
+      <a href="research/research-gaps.md">Research gaps →</a> &nbsp; <a href="research/model-harness-compatibility.md">Co-evolution proposal →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>04 / Design an experiment</h3>
+      <p>Define held-out tasks, matched budgets, whole-loop costs, and independent audits.</p>
+      <a href="experiments/evaluation-protocol.md">Evaluation protocol →</a> &nbsp; <a href="experiments/experiment-ideas.md">Study designs →</a>
+    </td>
+  </tr>
+</table>
+
+## Research map
+
+![Conceptual RSI loop: propose a change to the model, harness, or improver; evaluate the candidate; retain admitted changes; use the retained state in the next improvement round.](assets/rsi-loop.svg)
+
+The diagram is a conceptual loop. Its presence does not establish that a system improves its own improvement capability; that requires a separate, controlled comparison.
+
+| Track | What changes | The question to answer |
+| --- | --- | --- |
+| **[Foundations](docs/rsi-fundamentals.md)** | Definitions and evidence | What distinguishes adaptation, recursion, and a better improver? |
+| **[Harness RSI](docs/harness-rsi.md)** | Prompts, skills, tools, memory, workflows | Does a persistent update benefit the executor and transfer? |
+| **[Model RSI](docs/model-rsi.md)** | Weights, synthetic data, RL, post-training | Does capability improve under a fixed or changing interface? |
+| **[Meta-RSI](docs/meta-rsi.md)** | Improvement policies, meta-skills, search | Can a better improver transfer from a clean starting state? |
+| **[Co-evolution](docs/model-harness-coevolution.md)** | Model–harness pairs | Can coupled updates improve utility without harmful regression? |
+
+<details>
+<summary><strong>The recursive loop, formally</strong></summary>
 
 An agent may improve by changing model weights, prompts, tools, memory, skills, or control flow. Recursive self-improvement additionally involves retained changes participating in the production of further improvements. This mechanism should be distinguished from the stronger empirical claim that a later improver is actually better at improving a common starting agent.
 
@@ -19,39 +81,25 @@ $$
 
 Changing $\phi_t$ or reusing modified agent code can create recursion. Demonstrating a better improver requires a same-start, same-budget comparison and a separate audit. Merely increasing a benchmark score, writing more skills, or repeating a fixed training rule is insufficient. See [Foundations](docs/rsi-fundamentals.md).
 
-## Why this research matters
+Agent performance depends on the surrounding software as well as model parameters. Automating its improvement could reduce engineering effort, adapt smaller models to specialized workflows, and reuse knowledge across tasks. Feedback loops can also amplify benchmark shortcuts, noisy selection, incompatible updates, and hidden evaluation costs. Useful research must separate these effects before asserting progress.
 
-Agent performance depends on the surrounding software as well as model parameters. Automating its improvement could reduce engineering effort, adapt smaller models to specialized workflows, and reuse knowledge across tasks. The same feedback loops can also amplify benchmark shortcuts, noisy selection, incompatible updates, and hidden evaluation costs. Useful research must separate these effects before asserting progress.
+</details>
 
-```mermaid
-flowchart LR
-    A[Primary literature] --> B[Evidence and research gaps]
-    B --> C[Algorithm hypotheses]
-    C --> D[Controlled experiments]
-    D --> E[Independent audit]
-    E --> F[Reproducible research and publication]
-    E --> B
-    subgraph System[Agent and improvement procedure]
-        M[Model weights] <--> H[Harness and memory]
-        I[Improver] --> M
-        I --> H
-        I --> I
-    end
-    C --> System
-    System --> D
-```
+## Recently reviewed
 
-## Research taxonomy
+Recent papers in the reviewed collection, ordered by **first public date**. This is a curated snapshot; dates below are publication dates, not review dates.
 
-| Area | Main object of change | Central question | Guide |
-| --- | --- | --- | --- |
-| Foundations | Definitions and evidence | What distinguishes self-improvement, recursion, and improved improvers? | [Read](docs/rsi-fundamentals.md) |
-| Harness RSI | Prompts, skills, tools, memory, context, workflows | Does a persistent update benefit the executor and transfer? | [Read](docs/harness-rsi.md) |
-| Model RSI | Weights, synthetic data, RL, post-training | Does training improve capability under a fixed or changing interface? | [Read](docs/model-rsi.md) |
-| Meta-RSI | Improvement policies, meta-skills, search and evaluation | Can a better improver transfer from a clean starting state? | [Read](docs/meta-rsi.md) |
-| Co-evolution | Model–harness pairs | Can coupled updates improve utility without unacceptable regression? | [Read](docs/model-harness-coevolution.md) |
+| Published | Paper | What to examine |
+| --- | --- | --- |
+| Nov 18, 2026 | **[AHE-Beta](papers/2026/ahe-beta.md)** | Requirement-centered harness evolution; frozen transfer baselines and incomplete cost accounting |
+| Nov 17, 2026 | **[The Resolution Hypothesis](papers/2026/resolution-hypothesis.md)** | Identifying useful agent changes; terminal candidate-pool evidence and unverified code release |
+| Nov 16, 2026 | **[Evaluation-Free RSI](papers/2026/evaluation-free-rsi-elite.md)** | Search without task evaluation inside the loop; outcome evaluation remains necessary |
+| Nov 13, 2026 | **[Self-Improvement Memory](papers/2026/sim.md)** | Structured optimizer memory; distinguish improver state from solver context |
 
-## Featured reading
+**[Browse all 36 reviews →](papers/paper-index.md)** &nbsp; · &nbsp; [Machine-readable catalog](data/papers.json) &nbsp; · &nbsp; [BibTeX](references.bib)
+
+<details>
+<summary><strong>Eight anchor papers for a deeper reading path</strong></summary>
 
 | Work | Reason to read | Evidence qualification |
 | --- | --- | --- |
@@ -64,49 +112,58 @@ flowchart LR
 | [JoMoHa](papers/2026/jomoha.md) | Joint model–harness RL | Compare fixed components, budgets, and seed coverage |
 | [The RSI Tax](papers/2026/rsi-tax.md) | Whole-loop resource accounting | Charge unsuccessful verification and writing costs |
 
-The [complete index](papers/paper-index.md) includes every requested seed candidate, additional 2026 evaluation and algorithm papers, and historical foundations. Each paper has 15 structured review fields with source locators, limitations, code availability, and reproduction status. Use [papers.json](data/papers.json) for machine-readable metadata and [references.bib](references.bib) for citations.
+For earlier foundations, read [Gödel Machines](papers/foundations/godel-machines.md), [STaR](papers/foundations/star.md), [STOP](papers/foundations/stop.md), [DeepSeekMath/GRPO](papers/foundations/deepseekmath-grpo.md), and [GEPA](papers/2025/gepa.md). The [review guide](papers/README.md) provides routes by topic.
 
-## Current conclusions and open questions
+</details>
 
-The reviewed experiments support useful **bounded** harness and model adaptation. They also show that development gains, held-out gains, and improved-improver evidence can diverge. Generalization, stable co-evolution, reliable admission of updates, and whole-loop cost remain central problems. These are source-conditioned conclusions, not claims of universal failure or success. The [trend report](docs/research-trends.md) separates established findings, open problems, hypotheses, and potential contributions.
+## From evidence to experiments
 
-Four initial research proposals specify related work, mathematical formulations, baselines, experiments, metrics, challenges, and novelty limits:
+The reviewed work supports useful **bounded** harness and model adaptation. Development gains, held-out gains, and improved-improver evidence can diverge. Generalization, stable co-evolution, reliable update admission, and whole-loop cost remain central problems. The [trend report](docs/research-trends.md) separates findings, open questions, and hypotheses.
 
-1. [Compatibility-Aware Model–Harness Co-Evolution](research/model-harness-compatibility.md): predict and control harmful component interactions.
-2. [Generalizable Meta-RSI](research/generalizable-meta-rsi.md): transfer improvement policies across task families, executors, and budgets.
-3. [Utility-Aware Harness Adaptation](research/harness-benefit.md): estimate the effect of specific updates using randomized evidence.
-4. [Budget-Efficient RSI](research/efficient-rsi.md): allocate evaluations by their value for final selection while charging total cost.
+| Research proposal | Core question | Read the design |
+| --- | --- | --- |
+| **Compatibility-aware co-evolution** | Can harmful model–harness interactions be predicted and controlled? | [Formulation and baselines →](research/model-harness-compatibility.md) |
+| **Generalizable Meta-RSI** | Do improvement policies transfer across tasks, executors, and budgets? | [Transfer protocol →](research/generalizable-meta-rsi.md) |
+| **Utility-aware harness adaptation** | Which specific updates produce a measurable causal benefit? | [Randomized evidence →](research/harness-benefit.md) |
+| **Budget-efficient RSI** | Which evaluations are worth their cost for final selection? | [Cost-aware design →](research/efficient-rsi.md) |
 
-These are research hypotheses, not original results. HMED, SIM, TRUST, and recent co-evolution methods already cover important nearby ideas; the proposals identify the comparisons needed before making a novelty claim.
+These are **research hypotheses**, not original results. HMED, SIM, TRUST, and recent co-evolution methods cover important nearby ideas; each proposal specifies the comparisons needed before a novelty claim.
 
-## Benchmarks and navigation
+**Evaluation environments:** [SkillsBench · ALFWorld · WebShop · Terminal-Bench · SWE-bench · ToolSandbox](experiments/benchmarks.md). The benchmark catalog separates current releases from historical paper configurations.
 
-The [benchmark catalog](experiments/benchmarks.md) covers **SkillsBench, ALFWorld, WebShop, Terminal-Bench, SWE-bench, and ToolSandbox**, separating current releases from historical paper configurations. Version changes, simulator behavior, public task artifacts, and resource limits are part of the evaluation definition.
+**Next milestone:** a pinned, costed direct comparison of update utility with sealed task-family evaluation. Follow the [roadmap](ROADMAP.md) for exit criteria.
 
-| Need | Location |
+## Research toolkit
+
+| Find | Resources |
 | --- | --- |
-| Critical synthesis and priorities | [Research trends](docs/research-trends.md), [research gaps](research/research-gaps.md) |
-| Primary literature and verification policy | [Paper guide](papers/README.md), [index](papers/paper-index.md), [source audit](docs/source-audit.md) |
-| Reproducible study design | [Evaluation protocol](experiments/evaluation-protocol.md), [initial experiments](experiments/experiment-ideas.md) |
-| Frameworks, data, and code | [Frameworks](resources/frameworks.md), [datasets](resources/datasets.md), [projects](resources/open-source-projects.md) |
-| Reusable review/report formats | [Paper template](templates/paper-review.md), [experiment template](templates/experiment-report.md) |
-| Maintenance and research milestones | [Roadmap](ROADMAP.md), [contribution guidelines](CONTRIBUTING.md) |
+| Implementations and data | [Frameworks](resources/frameworks.md) · [Datasets](resources/datasets.md) · [Open-source projects](resources/open-source-projects.md) |
+| Review and experiment formats | [Paper review template](templates/paper-review.md) · [Experiment report template](templates/experiment-report.md) |
+| Provenance and citations | [Source audit](docs/source-audit.md) · [Paper metadata](data/papers.json) · [Bibliography](references.bib) · [CITATION.cff](CITATION.cff) |
+| Maintenance | [Contribution guidelines](CONTRIBUTING.md) · [Validation record](data/repository-validation.json) · [Roadmap](ROADMAP.md) |
 
-## Contributing and validation
+## Contribute
 
-Contributions should add primary evidence or sharpen a testable research claim. Write all repository content in professional academic English. Distinguish reported findings from independent reproduction and from proposals. Provide exact versions, experimental conditions, and source locations for numbers; use `Not verified` with a reason when evidence is unavailable.
+Add primary evidence, correct a source interpretation, or sharpen a testable claim. Use professional academic English, identify exact source versions, and distinguish reported findings, independent reproduction, and proposals. Start with the **[contribution guidelines](CONTRIBUTING.md)**.
 
-Documentation checks require Node.js 22 or later:
+<details>
+<summary><strong>Run documentation checks</strong></summary>
+
+Requires Node.js 22 or later:
 
 ```bash
 npm ci --ignore-scripts
 npm run lint
+git diff --check
 ```
 
-These checks validate Markdown, not scientific correctness. Citation review, local-link checks, data provenance, and sensitive-file inspection are additional requirements in [CONTRIBUTING.md](CONTRIBUTING.md). The pinned GitHub Actions workflow is configured for pushes and pull requests. Initialization passed local checks; the first hosted run could not start because of an account-level restriction, so hosted CI has not passed. See the [validation record](data/repository-validation.json).
+These commands check documentation, not scientific correctness. Citation review, local-link checks, data provenance, and sensitive-file inspection are additional requirements. The pinned GitHub Actions workflow runs on pushes and pull requests. See the [validation record](data/repository-validation.json) for observed local and hosted check results.
 
-## References and next milestones
+</details>
 
-Read [Gödel Machines](papers/foundations/godel-machines.md), [STaR](papers/foundations/star.md), [STOP](papers/foundations/stop.md), [DeepSeekMath/GRPO](papers/foundations/deepseekmath-grpo.md), and [GEPA](papers/2025/gepa.md) for conceptual and algorithmic foundations. Cite original papers for their methods and results; cite this repository only for its synthesis and proposed protocols, using [CITATION.cff](CITATION.cff).
+---
 
-The next milestone is a pinned, costed direct comparison of update utility with sealed task-family evaluation. Later milestones add compatibility analysis, clean-start improver transfer, and a manuscript supported by reproducible results. See the [roadmap](ROADMAP.md) for exit criteria.
+<p align="center">
+  <strong>Understand the mechanism. Audit the evidence. Test the next idea.</strong><br>
+  <sub>Cite original papers for their methods and results; cite this hub for its synthesis and proposed protocols.</sub>
+</p>
