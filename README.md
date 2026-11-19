@@ -4,7 +4,7 @@ A research hub for **Recursive Self-Improvement, Agent Harness Evolution, Meta-L
 
 This repository connects primary-source literature review to research-gap analysis, algorithm design, reproducible evaluation, and eventual academic publication. Its purpose is to explain **what improves, why it improves, what the evidence supports, and which experiments could establish a new contribution**.
 
-**Review cutoff:** November 19, 2026. **Current stage:** literature and protocol development. **Independent scientific reproductions:** none. The repository contains **35 full paper reviews**, four unvalidated algorithm proposals, and six benchmark guides. It is a curated research snapshot, not an exhaustive census or a claim that general RSI has been achieved.
+**Review cutoff:** November 19, 2026. **Current stage:** literature and protocol development. **Independent scientific reproductions:** none. The repository contains **36 full paper reviews**, four unvalidated algorithm proposals, and six benchmark guides. It is a curated research snapshot, not an exhaustive census or a claim that general RSI has been achieved.
 
 ## What is recursive self-improvement?
 

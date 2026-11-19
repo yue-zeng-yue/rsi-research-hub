@@ -1,6 +1,6 @@
 # Paper Index
 
-**35 primary-full-text-reviewed papers**, inspected as of **2026-11-19**. All results are author-reported; **0 independent scientific reproductions** have been performed. All 19 requested seed candidates are resolved and reviewed.
+**36 primary-full-text-reviewed papers**, inspected as of **2026-11-19**. All results are author-reported; **0 independent scientific reproductions** have been performed. All 19 requested seed candidates are resolved and reviewed.
 
 First-publication year determines placement. Exact author lists, affiliations, venue status, reviewed versions, setup, numerical conditions, and code availability appear in each 15-field review. This is a curated collection, not an exhaustive systematic review.
 
@@ -11,6 +11,7 @@ Canonical metadata: [papers.json](../data/papers.json). Citation export: [refere
 | First public date | Paper and review | Area | Primary source | Evidence boundary |
 | --- | --- | --- | --- | --- |
 | 2026-11-18 | [Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses](2026/ahe-beta.md) | Requirement-driven harness evolution | [Paper](https://arxiv.org/abs/2611.24924) | Frozen transfer baselines and incomplete cost ledger |
+| 2026-11-17 | [The Resolution Hypothesis: Agent Evolution’s Key Is Identifying Improvements](2026/resolution-hypothesis.md) | Evaluation resolution | [Paper](https://arxiv.org/abs/2611.23068) | Terminal-Bench candidate pool; code release not verified |
 | 2026-11-16 | [Evaluation-Free Recursive Self-Improvement for Coding Agents](2026/evaluation-free-rsi-elite.md) | Low-evaluation harness evolution | [Paper](https://arxiv.org/abs/2611.21056) | No task evaluation inside loop; outcome evaluation still required |
 | 2026-11-13 | [Self-Improvement Memory Enables Continual Recursive Self-Improvement](2026/sim.md) | Continual optimizer memory | [Paper](https://arxiv.org/abs/2611.18856) | Structured provenance; solver does not receive memory |
 | 2026-11-11 | [Knowledge in the Harness, Reliability in the Weights: Teacher-Free Co-Evolution of an LLM Agent](2026/knowledge-harness-reliability-weights.md) | Teacher-free co-evolution | [Paper](https://arxiv.org/abs/2611.15268) | Fixed base editor; external rules and weights differ |

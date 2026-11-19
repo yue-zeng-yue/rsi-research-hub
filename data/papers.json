@@ -42,6 +42,49 @@
     "revision": "v1"
   },
   {
+    "id": "resolution-hypothesis",
+    "title": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
+    "year": 2026,
+    "date": "2026-11-17",
+    "paper_url": "https://arxiv.org/abs/2611.23068",
+    "code_url": null,
+    "note_filename": "resolution-hypothesis.md",
+    "status": "primary-full-text-reviewed",
+    "source_sections": [
+      "PDF title page; arXiv v1 submission history",
+      "Sections 3–6; Tables 1–5; Appendices B–H; Limitations",
+      "Author-linked project page; implementation release not verified"
+    ],
+    "authors": [
+      "Yuanhao Zeng",
+      "Shaocheng Lan",
+      "Ao Lu",
+      "Kuang Yan",
+      "Heng Lin",
+      "Xinang Xu",
+      "Yuan Luo",
+      "Yueting Wang",
+      "Yexin Li",
+      "Ruo Shan",
+      "Kan Ren"
+    ],
+    "affiliations": [
+      "Yuanhao Zeng: ShanghaiTech University, ByteDance (China), BIGAI; Shaocheng Lan and Ao Lu: ShanghaiTech University, ByteDance; Kuang Yan, Heng Lin, Xinang Xu, Ruo Shan: ByteDance; Yuan Luo: SUSTech; Yueting Wang and Kan Ren: ShanghaiTech University; Yexin Li: BIGAI. PDF title-page mapping."
+    ],
+    "venue": "arXiv preprint; no peer-reviewed venue verified",
+    "doi": "10.48550/arXiv.2611.23068",
+    "doi_status": "arXiv record reports registration pending at inspection",
+    "note_path": "papers/2026/resolution-hypothesis.md",
+    "review_date": "2026-11-19",
+    "reproduction_status": "Not run",
+    "reviewed_version_url": "https://arxiv.org/html/2611.23068v1",
+    "taxonomy": "Evaluation resolution / frozen-model harness evolution",
+    "evidence_boundary": "Candidate-level evidence is Terminal-Bench-only; code release not verified",
+    "independent_replication": false,
+    "revision": "v1",
+    "project_url": "https://lineshogan.github.io/resolution-hypothesis/"
+  },
+  {
     "id": "evaluation-free-rsi-elite",
     "title": "Evaluation-Free Recursive Self-Improvement for Coding Agents",
     "year": 2026,

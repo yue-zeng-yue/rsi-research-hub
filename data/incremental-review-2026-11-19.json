@@ -1,0 +1,47 @@
+{
+  "checked_on": "2026-11-19",
+  "baseline_commit": "9fa2597",
+  "scope": "One literature addition; documentation checks only, not scientific reproduction. Initialization audit files are preserved unchanged.",
+  "added_paper": "resolution-hypothesis",
+  "primary_reviewed_papers": 36,
+  "independent_scientific_reproductions": 0,
+  "checks": {
+    "json_parse": "pass",
+    "unique_ids_and_paper_urls": "pass",
+    "review_fields": "36 reviews match all 15 template headings after normalizing optional numeric prefixes",
+    "all_review_paths": "36 paths exist",
+    "index_and_bibliography_url_coverage": "pass",
+    "local_file_links": "127 targets exist; heading-anchor audit not rerun",
+    "markdown_lint": "passed on 63 Markdown files with markdownlint-cli2 0.24.1",
+    "git_diff_check": "pass"
+  },
+  "installation_note": "Initial npm ci could not use default cache; succeeded with temporary writable cache and --ignore-scripts. No lockfile changes.",
+  "sources": [
+    {
+      "url": "https://arxiv.org/abs/2611.23068",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2611.23068",
+      "sha256": "05e630bb048c7ec2315e1cc87f9521ef79678cd595f0c22eb8b80f8664eaf586"
+    },
+    {
+      "url": "https://arxiv.org/html/2611.23068v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2611.23068v1",
+      "sha256": "ce6828c1bec8b0b53ee78377837ed736b44c10d1afaaa153657db0a59998c193"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2611.23068v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/pdf/2611.23068v1",
+      "sha256": "3ee67c72ccbf3a3a65a5018a79de074fa0319ca617bd2e77251d573be2782bcd"
+    },
+    {
+      "url": "https://lineshogan.github.io/resolution-hypothesis/",
+      "status": 200,
+      "resolved_url": "https://lineshogan.github.io/resolution-hypothesis/",
+      "sha256": "9269f371579a5148a2eeb4d5e7e5bc7e8d69cc7f5f27c622d43d1f3f0cedb697"
+    }
+  ],
+  "publication": "This record describes pre-publication checks; the Git history and workflow runs record publication and hosted CI.",
+  "errors": []
+}
