@@ -74,10 +74,9 @@ An agent may improve by changing model weights, prompts, tools, memory, skills, 
 
 Let $s_t=(\theta_t,h_t,m_t)$ be the model, harness, and memory, and $I_{\phi_t}$ an improvement procedure. A simplified loop is
 
-```math
-\widetilde s_{t+1}=I_{\phi_t}(s_t,E_t;B_t),\qquad
-s_{t+1}=\operatorname{Gate}(s_t,\widetilde s_{t+1};V_t).
-```
+**Propose a candidate:** $\widetilde{s}_{t+1}=I_{\phi_t}(s_t,E_t;B_t)$.
+
+**Admit or reject it:** $s_{t+1}=\operatorname{Gate}(s_t,\widetilde{s}_{t+1};V_t)$.
 
 Changing $\phi_t$ or reusing modified agent code can create recursion. Demonstrating a better improver requires a same-start, same-budget comparison and a separate audit. Merely increasing a benchmark score, writing more skills, or repeating a fixed training rule is insufficient. See [Foundations](docs/rsi-fundamentals.md).
 
