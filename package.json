@@ -1,0 +1,15 @@
+{
+  "name": "rsi-research-hub",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Documentation validation for the RSI Research Hub",
+  "scripts": {
+    "lint": "markdownlint-cli2 '**/*.md' '#node_modules'"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "0.24.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -1,0 +1,27 @@
+# Frameworks and infrastructure
+
+Inspected **2026-11-19**. These components serve different parts of a research loop; inclusion does not mean they implement recursive self-improvement. Repository licenses below were checked against official repository metadata or files. They do not automatically license model weights, task assets, or third-party services. No installation or training was performed.
+
+| Framework | Verified role | Appropriate research use | Setup / integration boundary | Code license and observed status |
+|---|---|---|---|---|
+| [DSPy](https://github.com/stanfordnlp/dspy) | Programming and optimizing LM systems | Modular prompt/program experiments with explicit train/validation metrics | `pip install dspy`; retain generated programs and optimizer configuration. An optimizer and its validation data are part of the experiment, not invisible preprocessing. | MIT; public and unarchived; observed last push 2026-11-18 |
+| [GEPA](https://github.com/gepa-ai/gepa) | Reflection-guided optimization of textual parameters; DSPy integration and standalone adapters | Prompt and scaffold-description optimization with execution feedback | `pip install gepa`; implement evaluation and reflective-dataset interfaces. Use [gepa-artifact](https://github.com/gepa-ai/gepa-artifact) for paper experiments rather than assuming latest library defaults reproduce them. | MIT; public and unarchived; last push 2026-11-09 |
+| [verl](https://github.com/verl-project/verl) | Distributed LLM post-training, including PPO/GRPO and rollout/training orchestration | Weight-update experiments and learned policies over tool trajectories | Pin trainer, rollout engine, recipes, reward code, and CUDA/framework dependencies. A generic GRPO recipe is not the original DeepSeekMath implementation. | Apache-2.0; public and unarchived; last push 2026-11-19 |
+| [TRL](https://github.com/huggingface/trl) | Transformers-based SFT, preference optimization, and GRPO trainers | Controlled training comparisons within the Hugging Face ecosystem | Pin trainer version and reward/parser behavior. Inspect sequence/token normalization and rollout settings rather than relying only on an algorithm name. | Apache-2.0; public and unarchived; last push 2026-11-19 |
+| [Harbor](https://github.com/harbor-framework/harbor) | Containerized task evaluation, agent adapters, and rollout generation | Terminal-Bench and other packaged environment evaluations | `uv tool install harbor`; choose immutable `dataset@version`, environment provider, agent, and model. Dataset compatibility and resource limits remain task-specific. | Apache-2.0; public and unarchived; last push 2026-11-19 |
+| [BenchFlow](https://github.com/benchflow-ai/benchflow) | Sandboxed task execution, scoring, agent adapters, trajectory and cost recording | SkillsBench and custom verifiable skill tasks | Current README describes 0.10, while SkillsBench registry 1.1 declares `>=0.6.3,<0.7`. Treat these as distinct versioned protocols and verify compatibility before reproducing the registry experiment. | Apache-2.0; public repository verified; archival status / exact last push not separately verified |
+| [mini-SWE-agent](https://github.com/SWE-agent/mini-swe-agent) | Minimal software-agent implementation and environment interface | A compact frozen scaffold baseline before adding self-improvement | `pip install mini-swe-agent`; current README identifies v2 and links a v1 migration path. Pin its config and terminal environment as well as its model. | MIT; public and unarchived; last push 2026-11-16 |
+
+## Selecting a stack
+
+Use a prompt optimizer when the hypothesis concerns reusable instructions and frozen model weights. Use a training framework when the hypothesis requires gradients or checkpoint updates. Use an evaluation harness to keep task execution, timeout handling, and grading reproducible. These are composable roles; replacing all three simultaneously prevents attribution.
+
+For a prompt-optimization study, a sensible controlled stack is one frozen model and harness, GEPA or DSPy, an optimization split, and an untouched final task suite. For model-level learning, compare a frozen checkpoint, supervised/rejection-sampling baseline, and the chosen RL method under the same task and rollout budget. For code-editing self-improvement, start with a small readable agent such as mini-SWE-agent and preserve each generated scaffold, its parent, and the evidence that selected it.
+
+## What must be pinned
+
+A package version alone is insufficient. Record the framework commit, model endpoint or checkpoint digest, tokenizer, environment image digest, task revision, reward code, resource budget, optimizer configuration, and dataset splits. For asynchronous training, record generation-policy versions and rollout staleness. For external APIs, preserve returned model identifiers and timestamps. Code availability and recent pushes are maintenance signals, not proof of numerical reproducibility or security.
+
+## Cost and verification boundary
+
+Exact end-to-end cost is **Not verified** for every framework here. A framework's support for a training method does not establish a memory reduction on the user's workload. Measure model loading, rollout generation, reward computation, optimization, failed jobs, and evaluation separately. No benchmark score, training speed, or claimed reproduction in this catalog is based on local execution.

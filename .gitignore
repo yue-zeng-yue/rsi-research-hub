@@ -1,0 +1,36 @@
+# Credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+.DS_Store
+.idea/
+.vscode/
+
+# Environments and dependency caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+.cache/
+
+# Private research scratch data and large experimental artifacts
+private/
+scratch/
+raw-papers/
+checkpoints/
+trajectories/
+wandb/
+outputs/
+*.pdf
+*.zip
+*.tar.gz
+*.safetensors
+*.pt
+*.pth
+*.log

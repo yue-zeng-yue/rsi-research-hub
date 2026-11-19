@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite the original papers for their findings. Cite this repository when referring to its synthesis or proposed protocols."
+title: "RSI Research Hub"
+authors:
+  - name: "RSI Research Hub contributors"
+version: 0.1.0
+date-released: 2026-11-19
+url: "https://github.com/yue-zeng-yue/rsi-research-hub"
+type: software
+abstract: "A source-grounded research repository on recursive self-improvement, harness evolution, meta-learning, and model-harness co-evolution."

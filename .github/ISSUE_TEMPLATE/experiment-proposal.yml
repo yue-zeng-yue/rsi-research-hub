@@ -1,0 +1,24 @@
+name: Experiment proposal
+description: Propose a discriminating experiment with explicit evidence and budget boundaries.
+title: "[Experiment] "
+body:
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Hypothesis, closest baselines, and falsification criterion
+    validations:
+      required: true
+  - type: textarea
+    id: protocol
+    attributes:
+      label: Protocol and artifact versions
+      description: Specify task splits, models, harnesses, evaluator access, search seeds, metrics, and statistical analysis.
+    validations:
+      required: true
+  - type: textarea
+    id: resources
+    attributes:
+      label: Resource budget and reproducibility plan
+      description: Include generation, evaluation, training, failed candidates, and deployment costs.
+    validations:
+      required: true

@@ -1,0 +1,30 @@
+name: Paper review or update
+description: Propose a primary-source review or a version update.
+title: "[Paper] "
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Primary paper URL and version
+      description: Link the original paper or official proceedings, including the revision date.
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Research relevance and closest indexed work
+      description: Identify the update target, improvement mechanism, and relevant taxonomy.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Methods, experiments, and limitations evidence
+      description: Include section/table locators, model and task conditions, and unresolved verification gaps.
+    validations:
+      required: true
+  - type: textarea
+    id: availability
+    attributes:
+      label: Official code and reproduction status
+      description: Distinguish a repository announcement, runnable release, and independent reproduction.

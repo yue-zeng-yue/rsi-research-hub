@@ -1,0 +1,1137 @@
+{
+  "checked_on": "2026-11-19",
+  "scope": "Public primary papers, official projects, benchmark resources and cited reference links. HTTP reachability is not scientific verification.",
+  "results": [
+    {
+      "url": "https://aclanthology.org/2026.emnlp-main.1893/",
+      "status": 200,
+      "resolved_url": "https://aclanthology.org/2026.emnlp-main.1893/",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2103.03874",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2103.03874",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2203.14465",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2203.14465",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.02304",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2310.02304",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.03300",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2402.03300",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.15228",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2504.15228",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.22954",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2505.22954",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.19457",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2507.19457",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.12670v4",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2602.12670v4",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19461",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2603.19461",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.28052",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2603.28052",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.25850",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2604.25850",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.27276",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2605.27276",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30621",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2605.30621",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.01779",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2606.01779",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.12227",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2607.12227",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.08311",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2608.08311",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.15071",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2608.15071",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.00196",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2609.00196",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.09134",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2609.09134",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.20519",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2609.20519",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.24972",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2609.24972",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.07979",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2610.07979",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.14224",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2610.14224",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22466",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2610.22466",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.27610",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2610.27610",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28069",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2610.28069",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.35434",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2610.35434",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.01736",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2611.01736",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.02797",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2611.02797",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.10787",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2611.10787",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.11499",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2611.11499",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.13524",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2611.13524",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.15268",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2611.15268",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.18856",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2611.18856",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.21056",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2611.21056",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.24924",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2611.24924",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/abs/cs/0309048",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/cs/0309048",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2402.03300v3",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2402.03300v3",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2408.04682v2",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2408.04682v2",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2504.15228v2",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2504.15228v2",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2504.15228v2#S3",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2504.15228v2",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2505.22954v3",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2505.22954v3",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2507.19457v2",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2507.19457v2",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2603.28052v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2603.28052v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2604.25850v4",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2604.25850v4",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2605.27276v2",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2605.27276v2",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2605.30621v2",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2605.30621v2",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2606.01779v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2606.01779v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2607.12227v4",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2607.12227v4",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2607.12227v4#S3",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2607.12227v4",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2608.08311v3",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2608.08311v3",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2608.15071v2",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2608.15071v2",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.00196v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2609.00196v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.09134v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2609.09134v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.20519v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2609.20519v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.24972v3",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2609.24972v3",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.07979v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2610.07979v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.14224v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2610.14224v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.22466v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2610.22466v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.22466v1#S3",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2610.22466v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.27610v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2610.27610v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.27610v1#S3",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2610.27610v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.28069v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2610.28069v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.35434v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2610.35434v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2611.01736v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2611.01736v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2611.02797v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2611.02797v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2611.10787v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2611.10787v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2611.11499v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2611.11499v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2611.13524v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2611.13524v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2611.15268v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2611.15268v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2611.18856v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2611.18856v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2611.21056v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2611.21056v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/html/2611.24924v1",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2611.24924v1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2010.03768",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/pdf/2010.03768",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2207.01206",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/pdf/2207.01206",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2310.02304v3",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/pdf/2310.02304v3",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2603.19461v2",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/pdf/2603.19461v2",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://arxiv.org/pdf/cs/0309048v5",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/pdf/cs/0309048v5",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2203.14465",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2203.14465",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2310.02304",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2310.02304",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2402.03300",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2402.03300",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2504.15228",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2504.15228",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2505.22954",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2505.22954",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2507.19457",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2507.19457",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2603.19461",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2603.19461",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2603.28052",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2603.28052",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2604.25850",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2604.25850",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2605.27276",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2605.27276",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2605.30621",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2605.30621",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2606.01779",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2606.01779",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2607.12227",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2607.12227",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2608.08311",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2608.08311",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2608.15071",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2608.15071",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2609.00196",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2609.00196",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2609.09134",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2609.09134",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2609.20519",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2609.20519",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2609.24972",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2609.24972",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2610.07979",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2610.07979",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2610.14224",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2610.14224",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2610.28069",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2610.28069",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2610.35434",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2610.35434",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2611.01736",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2611.01736",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2611.10787",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2611.10787",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2611.11499",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2611.11499",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2611.13524",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2611.13524",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2611.18856",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2611.18856",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2611.24924",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/2611.24924",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.cs/0309048",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/abs/cs/0309048",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/A-EVO-Lab/a-evolve/tree/release/evo-harness",
+      "status": 200,
+      "resolved_url": "https://github.com/A-EVO-Lab/a-evolve/tree/release/evo-harness",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/A-EVO-Lab/a-evolve/tree/release/harness-evolution",
+      "status": 200,
+      "resolved_url": "https://github.com/A-EVO-Lab/a-evolve/tree/release/harness-evolution",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/Brightendata/knowledge-in-the-harness",
+      "status": 200,
+      "resolved_url": "https://github.com/Brightendata/knowledge-in-the-harness",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/Brightendata/knowledge-in-the-harness#reproducing-the-paper",
+      "status": 200,
+      "resolved_url": "https://github.com/Brightendata/knowledge-in-the-harness",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/Curry09/AHE-Beta",
+      "status": 200,
+      "resolved_url": "https://github.com/Curry09/AHE-Beta",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/MaximeRobeyns/self_improving_coding_agent",
+      "status": 200,
+      "resolved_url": "https://github.com/MaximeRobeyns/self_improving_coding_agent",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/MaximeRobeyns/self_improving_coding_agent/commit/ed8275dca4d3c5dbf77229964351fe9b424797dc",
+      "status": 200,
+      "resolved_url": "https://github.com/MaximeRobeyns/self_improving_coding_agent/commit/ed8275dca4d3c5dbf77229964351fe9b424797dc",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/NVlabs/SoL-Pi",
+      "status": 200,
+      "resolved_url": "https://github.com/NVlabs/SoL-Pi",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/NVlabs/SoL-Pi/commit/219568034fa54ed121ede80961655e33dfb9d0e3",
+      "status": 200,
+      "resolved_url": "https://github.com/NVlabs/SoL-Pi/commit/219568034fa54ed121ede80961655e33dfb9d0e3",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/SWE-agent/mini-swe-agent",
+      "status": 200,
+      "resolved_url": "https://github.com/SWE-agent/mini-swe-agent",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/SWE-bench/SWE-bench",
+      "status": 200,
+      "resolved_url": "https://github.com/SWE-bench/SWE-bench",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/Wenwen-D/HarnessDeltaAttribution",
+      "status": 200,
+      "resolved_url": "https://github.com/Wenwen-D/HarnessDeltaAttribution",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/Wenwen-D/HarnessDeltaAttribution/commit/cc4119a678b070e324e6d6d94adea1acfcc86acb",
+      "status": 200,
+      "resolved_url": "https://github.com/Wenwen-D/HarnessDeltaAttribution/commit/cc4119a678b070e324e6d6d94adea1acfcc86acb",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/adongwanai/follow-rsi",
+      "status": 200,
+      "resolved_url": "https://github.com/adongwanai/follow-rsi",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/alfworld/alfworld",
+      "status": 200,
+      "resolved_url": "https://github.com/alfworld/alfworld",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/alfworld/alfworld#license",
+      "status": 200,
+      "resolved_url": "https://github.com/alfworld/alfworld",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/apple-aiml-research/ToolSandbox",
+      "status": 200,
+      "resolved_url": "https://github.com/apple-aiml-research/ToolSandbox",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/apple-aiml-research/ToolSandbox/blob/main/LICENSE",
+      "status": 200,
+      "resolved_url": "https://github.com/apple-aiml-research/ToolSandbox/blob/main/LICENSE",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/benchflow-ai/benchflow",
+      "status": 200,
+      "resolved_url": "https://github.com/benchflow-ai/benchflow",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/benchflow-ai/skillsbench",
+      "status": 200,
+      "resolved_url": "https://github.com/benchflow-ai/skillsbench",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/benchflow-ai/skillsbench#quick-start",
+      "status": 200,
+      "resolved_url": "https://github.com/benchflow-ai/skillsbench",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/benchflow-ai/skillsbench/blob/main/registry.json",
+      "status": 200,
+      "resolved_url": "https://github.com/benchflow-ai/skillsbench/blob/main/registry.json",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/china-qijizhifeng/agentic-harness-engineering",
+      "status": 200,
+      "resolved_url": "https://github.com/china-qijizhifeng/agentic-harness-engineering",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/china-qijizhifeng/agentic-harness-engineering/commit/182ea06e578df7b1d503eca537503c1e4c5a8a58",
+      "status": 200,
+      "resolved_url": "https://github.com/china-qijizhifeng/agentic-harness-engineering/commit/182ea06e578df7b1d503eca537503c1e4c5a8a58",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/deepseek-ai/DeepSeek-Math",
+      "status": 200,
+      "resolved_url": "https://github.com/deepseek-ai/DeepSeek-Math",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/deepseek-ai/DeepSeek-Math#6-license",
+      "status": 200,
+      "resolved_url": "https://github.com/deepseek-ai/DeepSeek-Math",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/ezelikman/STaR",
+      "status": 200,
+      "resolved_url": "https://github.com/ezelikman/STaR",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/facebookresearch/HyperAgents/commit/59a68f672dfb92c74aeb7e61535d776fb36e172d",
+      "status": 200,
+      "resolved_url": "https://github.com/facebookresearch/HyperAgents/commit/59a68f672dfb92c74aeb7e61535d776fb36e172d",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/facebookresearch/Hyperagents",
+      "status": 200,
+      "resolved_url": "https://github.com/facebookresearch/Hyperagents",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/gepa-ai/gepa",
+      "status": 200,
+      "resolved_url": "https://github.com/gepa-ai/gepa",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/gepa-ai/gepa-artifact",
+      "status": 200,
+      "resolved_url": "https://github.com/gepa-ai/gepa-artifact",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/google-research/harness2",
+      "status": 200,
+      "resolved_url": "https://github.com/google-research/harness2",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/google-research/harness2/commit/6868817518876de8fd170c6a8354daca273b6191",
+      "status": 200,
+      "resolved_url": "https://github.com/google-research/harness2/commit/6868817518876de8fd170c6a8354daca273b6191",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/google-research/rrsi",
+      "status": 200,
+      "resolved_url": "https://github.com/google-research/rrsi",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/google-research/rrsi/commit/be50316e1db05914068a973f322770ef08ed7ba1",
+      "status": 200,
+      "resolved_url": "https://github.com/google-research/rrsi/commit/be50316e1db05914068a973f322770ef08ed7ba1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/harbor-framework/harbor",
+      "status": 200,
+      "resolved_url": "https://github.com/harbor-framework/harbor",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/harbor-framework/terminal-bench-2",
+      "status": 200,
+      "resolved_url": "https://github.com/harbor-framework/terminal-bench-2",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/hendrycks/math",
+      "status": 200,
+      "resolved_url": "https://github.com/hendrycks/math",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/hexo-ai/sia",
+      "status": 200,
+      "resolved_url": "https://github.com/hexo-ai/sia",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/huggingface/trl",
+      "status": 200,
+      "resolved_url": "https://github.com/huggingface/trl",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/jennyzzt/dgm",
+      "status": 200,
+      "resolved_url": "https://github.com/jennyzzt/dgm",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/jennyzzt/dgm/commit/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2",
+      "status": 200,
+      "resolved_url": "https://github.com/jennyzzt/dgm/commit/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/krafton-ai/WHALE",
+      "status": 200,
+      "resolved_url": "https://github.com/krafton-ai/WHALE",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/lingxiaotang/HarnessAdapt-RL",
+      "status": 200,
+      "resolved_url": "https://github.com/lingxiaotang/HarnessAdapt-RL",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/microsoft/stop",
+      "status": 200,
+      "resolved_url": "https://github.com/microsoft/stop",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/mingju-c/HarnessForge",
+      "status": 200,
+      "resolved_url": "https://github.com/mingju-c/HarnessForge",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/openai/grade-school-math",
+      "status": 200,
+      "resolved_url": "https://github.com/openai/grade-school-math",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/princeton-nlp/WebShop",
+      "status": 200,
+      "resolved_url": "https://github.com/princeton-nlp/WebShop",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/princeton-nlp/WebShop/blob/master/LICENSE.md",
+      "status": 200,
+      "resolved_url": "https://github.com/princeton-nlp/WebShop/blob/master/LICENSE.md",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/razzant/ouroboros",
+      "status": 200,
+      "resolved_url": "https://github.com/razzant/ouroboros",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/rethinking-harness-evolution/code",
+      "status": 200,
+      "resolved_url": "https://github.com/rethinking-harness-evolution/code",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/rethinking-harness-evolution/code/commit/be1507aba4d424344a4548d58bc9cb6b2679fb03",
+      "status": 200,
+      "resolved_url": "https://github.com/rethinking-harness-evolution/code/commit/be1507aba4d424344a4548d58bc9cb6b2679fb03",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/stanford-iris-lab/meta-harness",
+      "status": 200,
+      "resolved_url": "https://github.com/stanford-iris-lab/meta-harness",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/stanford-iris-lab/meta-harness-tbench2-artifact",
+      "status": 200,
+      "resolved_url": "https://github.com/stanford-iris-lab/meta-harness-tbench2-artifact",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/stanford-iris-lab/meta-harness/commit/f805ad3aa4ada290458c1e0deadbe132fbbdea4e",
+      "status": 200,
+      "resolved_url": "https://github.com/stanford-iris-lab/meta-harness/commit/f805ad3aa4ada290458c1e0deadbe132fbbdea4e",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/stanfordnlp/dspy",
+      "status": 200,
+      "resolved_url": "https://github.com/stanfordnlp/dspy",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/taowangcheng/Skill-Infinity",
+      "status": 200,
+      "resolved_url": "https://github.com/taowangcheng/Skill-Infinity",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/theseus-labs-rsi/SelfImprove-Bench",
+      "status": 200,
+      "resolved_url": "https://github.com/theseus-labs-rsi/SelfImprove-Bench",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/theseus-labs-rsi/SelfImprove-Bench/commit/569438708d3de1989ba9cbcd0667bf79d2cc5d30",
+      "status": 200,
+      "resolved_url": "https://github.com/theseus-labs-rsi/SelfImprove-Bench/commit/569438708d3de1989ba9cbcd0667bf79d2cc5d30",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/verl-project/verl",
+      "status": 200,
+      "resolved_url": "https://github.com/verl-project/verl",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://github.com/xudongwu-0/coevolve",
+      "status": 200,
+      "resolved_url": "https://github.com/xudongwu-0/coevolve",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://harness2.github.io",
+      "status": 200,
+      "resolved_url": "https://harness2.github.io",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://hotpotqa.github.io/",
+      "status": 200,
+      "resolved_url": "https://hotpotqa.github.io/",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://huggingface.co/datasets/benchflow/skillsbench",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/datasets/benchflow/skillsbench",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://huggingface.co/datasets/openai/gsm8k",
+      "status": 200,
+      "resolved_url": "https://huggingface.co/datasets/openai/gsm8k",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://lucasxinyu.github.io/sim/",
+      "status": 200,
+      "resolved_url": "https://lucasxinyu.github.io/sim/",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://nvlabs.github.io/SoL-Pi/",
+      "status": 200,
+      "resolved_url": "https://nvlabs.github.io/SoL-Pi/",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://openreview.net/forum?id=pUpzQZTvGY",
+      "status": 200,
+      "resolved_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DpUpzQZTvGY",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://openreview.net/pdf/574281303882f822808ab57ac3a57a2bddfbc7a3.pdf",
+      "status": 403,
+      "availability": "access-limited"
+    },
+    {
+      "url": "https://openreview.net/pdf?id=46Zgqo4QIU",
+      "status": 403,
+      "availability": "access-limited"
+    },
+    {
+      "url": "https://openreview.net/pdf?id=rShJCyLsOr",
+      "status": 403,
+      "availability": "access-limited"
+    },
+    {
+      "url": "https://ouroboros-agent.ai/",
+      "status": 200,
+      "resolved_url": "https://ouroboros-agent.ai/",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/639a9a172c044fbb64175b5fad42e9a5-Paper-Conference.pdf",
+      "status": 200,
+      "resolved_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/639a9a172c044fbb64175b5fad42e9a5-Paper-Conference.pdf",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/639a9a172c044fbb64175b5fad42e9a5-Abstract-Conference.html",
+      "status": 200,
+      "resolved_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/639a9a172c044fbb64175b5fad42e9a5-Abstract-Conference.html",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://regularized-rsi.com/",
+      "status": 200,
+      "resolved_url": "https://regularized-rsi.com/",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://www.skillsbench.ai/blogs/skillsbench-1-1",
+      "status": 200,
+      "resolved_url": "https://www.skillsbench.ai/blogs/skillsbench-1-1",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://www.swebench.com/",
+      "status": 200,
+      "resolved_url": "https://www.swebench.com/",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://www.tbench.ai/run",
+      "status": 200,
+      "resolved_url": "https://www.tbench.ai/run",
+      "availability": "reachable"
+    },
+    {
+      "url": "https://yoonholee.com/meta-harness/",
+      "status": 200,
+      "resolved_url": "https://yoonholee.com/meta-harness/",
+      "availability": "reachable"
+    }
+  ]
+}

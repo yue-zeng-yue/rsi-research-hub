@@ -1,0 +1,29 @@
+name: Evidence correction
+description: Correct a citation, result, interpretation, or reproducibility claim.
+title: "[Evidence] "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Repository file and claim
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction and primary evidence
+      description: Provide an exact source version and section, page, or table locator. Explain the impact on conclusions.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Evidence category
+      options:
+        - Metadata or venue
+        - Method or experimental conditions
+        - Numerical result
+        - Interpretation or novelty
+        - Reproducibility or code availability
+    validations:
+      required: true
