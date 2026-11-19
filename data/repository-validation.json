@@ -1,4 +1,10 @@
 {
+  "hosted_ci": {
+    "status": "not_run",
+    "conclusion": "startup_failure",
+    "reason": "GitHub Actions could not start the hosted job because of an account-level restriction. Local lint passed.",
+    "run_url": "https://github.com/yue-zeng-yue/rsi-research-hub/actions/runs/44480166480"
+  },
   "checked_on": "2026-11-19",
   "status": "pass",
   "scope": "Documentation and metadata validation, not scientific reproduction. English-script checks are heuristic; academic prose was also reviewed. Secret screening checks common patterns, not a proof of absence.",
@@ -7,7 +13,7 @@
   "primary_reviewed_papers": 35,
   "requested_candidates_reviewed": 19,
   "independent_scientific_reproductions": 0,
-  "local_links_checked": 120,
+  "local_links_checked": 121,
   "review_schema_fields": 15,
   "markdown_lint": "Passed markdownlint-cli2 0.24.1 over all 62 Markdown files",
   "yaml_and_citation_syntax": "Parsed workflow, three issue forms and CITATION.cff with js-yaml",

@@ -46,4 +46,6 @@ The synthesis preserves the following distinctions: search versus held-out perfo
 
 The final initialization validation record is [data/repository-validation.json](../data/repository-validation.json). It contains file and paper counts, English-script and path checks, local-link checks, review-field checks, and sensitive-content screening results. The URL audit is [data/link-audit.json](../data/link-audit.json); failures identify transport or source-access gaps and do not silently disappear from the record. Markdown validation runs through the pinned npm lockfile and GitHub Actions.
 
+Initialization checked 189 public source links: 186 were reachable and three OpenReview PDF endpoints returned HTTP 403 to the automated checker. Primary metadata and alternative full-text sources were used where available; the access limitation remains in the audit. All 76 committed files were verified against the initial remote tree by blob hash. The first hosted documentation run did not start because of an account-level restriction; local Markdown validation passed. The validation record links that hosted run without presenting it as a passing check.
+
 These are documentation and provenance checks. They must never be cited as experimental confirmation of any algorithm in this repository.

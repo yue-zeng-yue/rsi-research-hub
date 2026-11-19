@@ -103,7 +103,7 @@ npm ci --ignore-scripts
 npm run lint
 ```
 
-These checks validate Markdown, not scientific correctness. Citation review, local-link checks, data provenance, and sensitive-file inspection are additional requirements in [CONTRIBUTING.md](CONTRIBUTING.md). The pinned GitHub Actions workflow runs the Markdown check on pushes and pull requests.
+These checks validate Markdown, not scientific correctness. Citation review, local-link checks, data provenance, and sensitive-file inspection are additional requirements in [CONTRIBUTING.md](CONTRIBUTING.md). The pinned GitHub Actions workflow is configured for pushes and pull requests. Initialization passed local checks; the first hosted run could not start because of an account-level restriction, so hosted CI has not passed. See the [validation record](data/repository-validation.json).
 
 ## References and next milestones
 
