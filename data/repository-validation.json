@@ -1,9 +1,10 @@
 {
   "hosted_ci": {
     "status": "not_run",
-    "conclusion": "startup_failure",
-    "reason": "GitHub Actions could not start the hosted job because of an account-level restriction. Local lint passed.",
-    "run_url": "https://github.com/yue-zeng-yue/rsi-research-hub/actions/runs/44480166480"
+    "conclusion": "failure",
+    "reason": "The hosted job could not start because of an account-level restriction. No workflow steps ran; local documentation validation passed.",
+    "run_url": "https://github.com/yue-zeng-yue/rsi-research-hub/actions/runs/44484176589",
+    "head_sha": "4bf455fb4e008d4c586f808c801aa04fc3471a11"
   },
   "checked_on": "2026-11-19",
   "status": "pass",
@@ -113,5 +114,10 @@
     "resources/open-source-projects.md",
     "templates/experiment-report.md",
     "templates/paper-review.md"
-  ]
+  ],
+  "visual_validation": {
+    "assets": "Both SVGs parsed as XML, with accessible descriptions, resolved internal references, and no scripts or external dependencies.",
+    "github_rendering": "Published hero, conceptual loop, research-map anchor, and expandable section inspected in GitHub.",
+    "catalog_consistency": "Homepage count and recent entries match all 36 admitted records, including the concurrent Resolution Hypothesis addition."
+  }
 }
