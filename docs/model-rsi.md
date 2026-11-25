@@ -45,6 +45,8 @@ The November 2026 [teacher-free co-evolution study](https://arxiv.org/abs/2611.1
 
 ## Experimental priorities
 
+The [November 25 update](updates/2026-11-25.md) distinguishes three additional cases: [AutoMaster](../papers/2026/automaster.md) improves demonstrations while restarting students, [SelfWrite](../papers/2026/selfwrite.md) lets merged weights author subsequent edits, and [TT-RSI](../papers/2026/tt-rsi.md) adapts on unlabeled target questions using refinement-derived supervision. Compare their feedback access and retained state explicitly. In particular, transductive adaptation is not an untouched-task audit, and gradient-free edits are not cost-free updates.
+
 Compare model-only, harness-only, alternating, and joint updates using a common starting system. Measure held-out success, reliability across repeated runs, regressions by task family, policy drift, tool-format errors, and resource use. Use external correctness checks where possible, evaluate calibration of model judges, and reserve final tests from training and checkpoint selection. Log pretrained model identity, adapter configuration, precision, optimizer settings, model and harness hashes, data lineage, and serving configuration.
 
 No model training was run during repository initialization. Mathematical objectives here are research specifications; implementation and independent results belong in versioned experiment reports.

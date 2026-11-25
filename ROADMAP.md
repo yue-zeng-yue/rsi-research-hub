@@ -2,6 +2,8 @@
 
 This roadmap tracks evidence milestones rather than promising positive findings or publication dates. The initial literature cutoff is 2026-11-19. Each experimental phase specifies its execution environment and resource budget before launch.
 
+**Status on 2026-11-25:** the [incremental review](docs/updates/2026-11-25.md) expands the library to 40 papers. Phase 2 remains planned; no independent experiment was added. CoEvoBench is a candidate protocol for co-evolution comparisons, subject to implementation and evaluator validation. AutoMaster, SelfWrite, and TT-RSI refine the model-level baseline and feedback taxonomy.
+
 ## Phase 1: Establish the research base
 
 **Initialization deliverables:** five technical-area guides, source-grounded paper reviews, a trend report, four research proposals, six benchmark guides, and review/report templates. The machine-readable catalog records inspected versions and independent reproduction status.

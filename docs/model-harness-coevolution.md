@@ -29,6 +29,8 @@ A negative $\mathcal I$ means the combined effect is subadditive on the chosen s
 
 ## Credit assignment and stable updates
 
+[CoEvoBench](../papers/2026/coevobench.md), reviewed November 25, evaluates researcher-driven choices between model and harness changes and includes component swaps. It is a close evaluation reference for the questions above. Its current public implementation has documented acceptance and provenance gaps, so the protocol and the readiness of the released executor must be assessed separately.
+
 An increase in skill usage can follow both a harness edit and a model update. Counting usage does not determine which caused task success. Randomized component availability and crossed evaluations are more informative. For model learning, log the harness that produced each trajectory and the harness under which a likelihood is evaluated. A new tool interface can invalidate old trajectories even if token importance weights appear well behaved.
 
 Use a candidate pool of compatible pairs rather than independently selecting the highest-scoring model and harness. A conservative acceptance rule can require a lower confidence bound on total gain and an upper bound on regression risk on a prespecified validation family. Such a rule provides an empirical guardrail, not a guarantee on arbitrary future tasks. Reusing the same validation set indefinitely also invalidates naive fixed-sample confidence claims.

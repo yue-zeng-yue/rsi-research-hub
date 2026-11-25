@@ -22,6 +22,8 @@ An agent that runs more cheaply can still be uneconomical if evolution costs exc
 | [WHALE](https://arxiv.org/abs/2609.00196) | Switches weight/harness learning based on training behavior | Adaptive scheduling alone is insufficient novelty |
 | [TRUST](https://arxiv.org/abs/2611.10787) | Uses historical context to allocate statistical evidence across update gates | Value-of-information scheduling must improve on existing evidence-adaptive admission |
 | [AHE-Beta](https://arxiv.org/abs/2611.24924) | Requirement-driven development with review and simulated users | Charge simulation and review costs, not only executor-token savings |
+| [TT-RSI](../papers/2026/tt-rsi.md) | Refinement and test-time training with output-token-matched inference comparisons | Include reference-input work, adaptation, latency, and all failed attempts before claiming whole-loop savings |
+| [CoEvoBench](../papers/2026/coevobench.md) | Shared GPU/time envelope and separate API-cost accounting | Equal resource caps do not imply equal realized cost |
 
 ## Limitations of Existing Methods
 

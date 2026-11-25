@@ -1,6 +1,6 @@
 # Paper Index
 
-**36 primary-full-text-reviewed papers**, inspected as of **2026-11-19**. All results are author-reported; **0 independent scientific reproductions** have been performed. All 19 requested seed candidates are resolved and reviewed.
+**40 primary-full-text-reviewed papers**, with the latest incremental inspection on **2026-11-25**. Earlier records retain their own review dates. All results are author-reported; **0 independent scientific reproductions** have been performed. All 19 requested seed candidates are resolved and reviewed.
 
 First-publication year determines placement. Exact author lists, affiliations, venue status, reviewed versions, setup, numerical conditions, and code availability appear in each 15-field review. This is a curated collection, not an exhaustive systematic review.
 
@@ -12,6 +12,10 @@ Canonical metadata: [papers.json](../data/papers.json). Citation export: [refere
 
 | First public date | Paper and review | Area | Primary source | Evidence boundary |
 | --- | --- | --- | --- | --- |
+| 2026-11-23 | [Beyond Self-Consistency: Recursive Self-Improvement at Test Time](2026/tt-rsi.md) | Test-time adaptation / refinement distillation | [Paper](https://arxiv.org/abs/2611.30965) | Transductive main evaluation; output-token matching excludes reference inputs |
+| 2026-11-22 | [Recursive Self-Editing: LLMs Program Their Own Weight Edits for Self-Improvement](2026/selfwrite.md) | Direct weight editing / editor succession | [Paper](https://arxiv.org/abs/2611.29513) | Single mathematics source; reused selection gate; four accepted edits in five generations |
+| 2026-11-20 | [CoEvoBench: Can LLMs Drive Recursive Co-Evolution of Agentic Systems?](2026/coevobench.md) | Co-evolution evaluation / research decisions | [Paper](https://arxiv.org/abs/2611.27116) | Weighted aggregate; audit sanctions and incomplete public runtime acceptance |
+| 2026-11-19 | [AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher](2026/automaster.md) | Skill-guided demonstrations / autonomous post-training | [Paper](https://arxiv.org/abs/2611.26510) | Students restart from base; benchmark feedback informs selection; partial artifact release |
 | 2026-11-18 | [Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses](2026/ahe-beta.md) | Requirement-driven harness evolution | [Paper](https://arxiv.org/abs/2611.24924) | Frozen transfer baselines and incomplete cost ledger |
 | 2026-11-17 | [The Resolution Hypothesis: Agent Evolution’s Key Is Identifying Improvements](2026/resolution-hypothesis.md) | Evaluation resolution | [Paper](https://arxiv.org/abs/2611.23068) | Terminal-Bench candidate pool; code release not verified |
 | 2026-11-16 | [Evaluation-Free Recursive Self-Improvement for Coding Agents](2026/evaluation-free-rsi-elite.md) | Low-evaluation harness evolution | [Paper](https://arxiv.org/abs/2611.21056) | No task evaluation inside loop; outcome evaluation still required |

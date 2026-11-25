@@ -1,0 +1,214 @@
+{
+  "checked_on": "2026-11-25",
+  "timezone": "Asia/Shanghai",
+  "baseline_commit": "75a0be6daa11ba09933ef5684b85986628e89499",
+  "scope": "Selective literature update and documentation checks; no scientific execution. Historical audit records and all 36 prior paper records are preserved.",
+  "search_window_local": [
+    "2026-11-20",
+    "2026-11-25"
+  ],
+  "date_policy": "Catalog dates follow first submission in the arXiv UTC record; revisions, review dates and Asia/Shanghai conversions are separate.",
+  "added_papers": [
+    "tt-rsi",
+    "selfwrite",
+    "coevobench",
+    "automaster"
+  ],
+  "primary_reviewed_papers": 40,
+  "independent_scientific_reproductions": 0,
+  "queries": [
+    "recursive self-improvement November 2026",
+    "self-evolving agents November 2026 arxiv",
+    "recursive self-improvement after:2026-11-19 before:2026-11-26",
+    "harness evolution after:2026-11-19 before:2026-11-26",
+    "site:arxiv.org date-qualified Nov 20/23/24 queries (no results)",
+    "recursive self-improvement Nov 23, 2026",
+    "recursive self-improvement Nov 24, 2026",
+    "self-improvement November 24, 2026 arxiv paper",
+    "recursive self-improvement November 25, 2026 paper",
+    "Exact-title queries for SelfWrite and Beyond Self-Consistency",
+    "SELFWRITE 2611.29513 github",
+    "TT-RSI 2611.30965 github"
+  ],
+  "discovery_sources": [
+    "https://github.com/adongwanai/follow-rsi/tree/main/daily"
+  ],
+  "coverage_limits": [
+    "Non-exhaustive search; no claim of complete November 24-25 coverage",
+    "Other 36 paper versions and all historical external URLs were not re-audited",
+    "Discovery-only candidates do not enter the reviewed-paper count",
+    "Individual affiliation mappings for CoEvoBench and TT-RSI remain Not verified; SelfWrite affiliations unavailable in inspected text"
+  ],
+  "sources": [
+    {
+      "url": "https://arxiv.org/abs/2611.30965",
+      "access": "retrieved successfully on 2026-11-25",
+      "sha256": "330a68d31bfd872327916abdd0c146cce1486ea17896de08a12fe582b4ec091e",
+      "bytes": 42767
+    },
+    {
+      "url": "https://arxiv.org/html/2611.30965v1",
+      "access": "retrieved successfully on 2026-11-25",
+      "sha256": "7178d15a484d084b85f9c0dd12ed08201b722a536cb2283ad1cc2863f698cb04",
+      "bytes": 475354
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.29513",
+      "access": "retrieved successfully on 2026-11-25",
+      "sha256": "2b5f1089264417565757307cc7cfe6fe4ec93e1eff9bf63b02c2f820280bf787",
+      "bytes": 41707
+    },
+    {
+      "url": "https://arxiv.org/html/2611.29513v1",
+      "access": "retrieved successfully on 2026-11-25",
+      "sha256": "6c042c196f148f92da87d30dd509e2ab7a99143810f7199b4e146af5ceb3462a",
+      "bytes": 287250
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.27116",
+      "access": "retrieved successfully on 2026-11-25",
+      "sha256": "d82c77ce00ab91f1b48ae426aec809cfcc392ddd7517a802e966709fbe19cbd7",
+      "bytes": 41402
+    },
+    {
+      "url": "https://arxiv.org/html/2611.27116v1",
+      "access": "retrieved successfully on 2026-11-25",
+      "sha256": "7e8127cfc33833547ff0da996e15186440a051ce8cbb6deecf5fe0415802adcb",
+      "bytes": 587206
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26510",
+      "access": "retrieved successfully on 2026-11-25",
+      "sha256": "a6c41a1d242bc5cef432cfccad4fbbc518b4793721176581819bf40034d39ee8",
+      "bytes": 42590
+    },
+    {
+      "url": "https://arxiv.org/html/2611.26510v2",
+      "access": "retrieved successfully on 2026-11-25",
+      "sha256": "d771629f79ae16b02622d6331f98de59f8c666674c26d60ca1e28362a71dd71b",
+      "bytes": 262517
+    },
+    {
+      "url": "https://github.com/AlibabaResearch/CoEvoBench/blob/d39a924c8985806933c94777d8e969d6e756262c/README.md",
+      "access": "Retrieved through GitHub contents API at pinned commit",
+      "sha256": "16c7111884aadddc15c2c57e059ce598b2e6b46e3df4d4d7f3805254b90b0c2f",
+      "bytes": 10195
+    },
+    {
+      "url": "https://github.com/AlibabaResearch/CoEvoBench/blob/d39a924c8985806933c94777d8e969d6e756262c/src/coevobench/bench/bfcl/provenance.py",
+      "access": "Retrieved through GitHub contents API at pinned commit",
+      "sha256": "4d09022342ad7a28c835b0341f5a37d8185a7d0f6239b1ae7ca0d4913d6385aa",
+      "bytes": 1405
+    },
+    {
+      "url": "https://github.com/RUCAIBox/AutoMaster/blob/116c295dfdb7729e8f8684d85dea867c5fd9806e/README.md",
+      "access": "Retrieved through GitHub contents API at pinned commit",
+      "sha256": "f822b3a27ce67d03f4de70ae932ee4ef0724ae54c7a30aded052eeb0b3146313",
+      "bytes": 8160
+    }
+  ],
+  "code_snapshots": [
+    {
+      "id": "coevobench",
+      "url": "https://github.com/AlibabaResearch/CoEvoBench",
+      "commit": "d39a924c8985806933c94777d8e969d6e756262c",
+      "status": "Substantive partial implementation; current image acceptance and final-evaluation gaps documented; historical equivalence unverified"
+    },
+    {
+      "id": "automaster",
+      "url": "https://github.com/RUCAIBox/AutoMaster",
+      "commit": "116c295dfdb7729e8f8684d85dea867c5fd9806e",
+      "status": "Partial release: nine skills, inference recipes, and AweAgent submodule; complete autonomous training controller not found"
+    }
+  ],
+  "discovery_only": [
+    {
+      "id": "navrsi",
+      "arxiv": "2611.27499",
+      "status": "Primary metadata inspected; full review pending"
+    },
+    {
+      "id": "evoter",
+      "arxiv": "2611.27797",
+      "status": "Primary metadata inspected; full review pending"
+    },
+    {
+      "id": "embodied-harness",
+      "arxiv": "2611.27689",
+      "status": "Primary metadata inspected; full review pending"
+    },
+    {
+      "id": "search-rsi",
+      "arxiv": "2611.27780",
+      "status": "Primary metadata inspected; full review pending"
+    },
+    {
+      "id": "finevo",
+      "arxiv": "2611.28239",
+      "status": "Primary metadata inspected; full review pending"
+    },
+    {
+      "id": "basersi",
+      "arxiv": "2611.24578",
+      "status": "Primary metadata inspected; full review pending"
+    },
+    {
+      "id": "self-rewriting",
+      "arxiv": "2611.21885",
+      "status": "Primary metadata inspected; full review pending"
+    },
+    {
+      "id": "roha-sgg",
+      "arxiv": "2611.27529",
+      "status": "Primary identity and full text Not verified; bulletin lead only"
+    },
+    {
+      "id": "sir-agent",
+      "arxiv": "2611.27285",
+      "status": "Primary identity and full text Not verified; bulletin lead only"
+    },
+    {
+      "id": "remote-evolver",
+      "arxiv": "2611.27110",
+      "status": "Primary identity and full text Not verified; bulletin lead only"
+    },
+    {
+      "id": "safe-personal-rsi",
+      "arxiv": "2611.23651",
+      "status": "Primary identity and full text Not verified; bulletin lead only"
+    },
+    {
+      "id": "compounding-kernel",
+      "arxiv": "2611.19230",
+      "status": "Primary identity and full text Not verified; bulletin lead only"
+    }
+  ],
+  "checks": {
+    "dependency_install": "npm ci --ignore-scripts with a writable temporary cache; passed, no lockfile changes",
+    "markdown_lint": "npm run lint: markdownlint-cli2 0.24.1, 68 Markdown files, zero issues",
+    "json_yaml_citation_syntax": "JSON parsed; workflow/issue YAML and CITATION.cff parsed with js-yaml",
+    "catalog_integrity": "40 unique IDs, primary URLs and review paths; all reviews have the 15 template fields; index and BibTeX coverage pass",
+    "prior_metadata": "All 36 prior paper records equal baseline records; historical validation files unchanged",
+    "primary_metadata": "All four added titles, author lists in source order and first-submission dates match downloaded arXiv citation metadata",
+    "quantitative_review": "Primary tables inspected; example differences and CoEvoBench normalized gap arithmetic checked; no result independently reproduced",
+    "homepage": "Count and four recent entries match the catalog ordered by first publication date; no layout or artwork changes",
+    "sensitive_content": "Changed files screened for common credentials, local machine paths, non-English script and placeholders; no findings; heuristic screening only",
+    "git_diff_check": "pass",
+    "scope_note": "Local path and heading checks cover the repository. External URL availability was checked for the new primary sources and inspected code; the historical full external-link audit was not repeated",
+    "files": 86,
+    "markdown_files": 68,
+    "primary_reviewed_papers": 40,
+    "local_links_checked": 217,
+    "heading_links_checked": 5,
+    "review_schema_fields": 15,
+    "changed_files": 18,
+    "errors": []
+  },
+  "hosted_ci_before_update": {
+    "run_url": "https://github.com/yue-zeng-yue/rsi-research-hub/actions/runs/44490026957",
+    "head_sha": "75a0be6daa11ba09933ef5684b85986628e89499",
+    "conclusion": "failure",
+    "note": "Historical run inspected live; new commit hosted result must be read from Actions after publication."
+  },
+  "publication": "This ledger records pre-publication checks. Git history and Actions are authoritative for publication and hosted status."
+}

@@ -1,5 +1,165 @@
 [
   {
+    "id": "tt-rsi",
+    "title": "Beyond Self-Consistency: Recursive Self-Improvement at Test Time",
+    "date": "2026-11-23",
+    "submitted_at": "2026-11-23T16:33:00Z",
+    "arxiv": "2611.30965",
+    "revision": "v1",
+    "authors": [
+      "Jianyu Wu",
+      "Yizhou Wang",
+      "Encheng Su",
+      "Jinouwen Zhang",
+      "Pengze Li",
+      "Lintao Wang",
+      "Chen Tang",
+      "Aoran Wang",
+      "Wanli Ouyang",
+      "Shixiang Tang"
+    ],
+    "affiliations": [
+      "Shanghai Jiao Tong University; Shanghai Artificial Intelligence Laboratory; The Chinese University of Hong Kong; University of Science and Technology of China; Fudan University; University of Sydney. Individual mappings: Not verified; inspected HTML associations are malformed."
+    ],
+    "taxonomy": "Test-time adaptation / refinement distillation",
+    "evidence_boundary": "Transductive main evaluation; output-token matching excludes reference inputs",
+    "source_sections": [
+      "Sections 2-4; Tables 1,4-6; theoretical assumptions; Appendices B-D"
+    ],
+    "code_url": null,
+    "code_status": "Not verified: no author-linked implementation located",
+    "primary_class": "cs.CL",
+    "doi_status": "arXiv record reports registration pending at inspection",
+    "year": 2026,
+    "paper_url": "https://arxiv.org/abs/2611.30965",
+    "doi": "10.48550/arXiv.2611.30965",
+    "reviewed_version_url": "https://arxiv.org/html/2611.30965v1",
+    "note_filename": "tt-rsi.md",
+    "note_path": "papers/2026/tt-rsi.md",
+    "status": "primary-full-text-reviewed",
+    "venue": "arXiv preprint; no peer-reviewed venue verified",
+    "review_date": "2026-11-25",
+    "reproduction_status": "Not run",
+    "independent_replication": false
+  },
+  {
+    "id": "selfwrite",
+    "title": "Recursive Self-Editing: LLMs Program Their Own Weight Edits for Self-Improvement",
+    "date": "2026-11-22",
+    "submitted_at": "2026-11-22T14:30:51Z",
+    "arxiv": "2611.29513",
+    "revision": "v1",
+    "authors": [
+      "Linghua Zhang",
+      "Yunhe Li"
+    ],
+    "affiliations": [
+      "Not verified: no institutional affiliations supplied in the inspected record or HTML title block"
+    ],
+    "taxonomy": "Direct weight editing / editor succession",
+    "evidence_boundary": "Single mathematics source; reused selection gate; four accepted edits in five generations",
+    "source_sections": [
+      "Sections 3-6; Algorithm 1; Table 2; Appendices A-B"
+    ],
+    "code_url": null,
+    "code_status": "Not verified: no author-linked implementation located",
+    "primary_class": "cs.LG",
+    "doi_status": "arXiv record reports registration pending at inspection",
+    "year": 2026,
+    "paper_url": "https://arxiv.org/abs/2611.29513",
+    "doi": "10.48550/arXiv.2611.29513",
+    "reviewed_version_url": "https://arxiv.org/html/2611.29513v1",
+    "note_filename": "selfwrite.md",
+    "note_path": "papers/2026/selfwrite.md",
+    "status": "primary-full-text-reviewed",
+    "venue": "arXiv preprint; no peer-reviewed venue verified",
+    "review_date": "2026-11-25",
+    "reproduction_status": "Not run",
+    "independent_replication": false
+  },
+  {
+    "id": "coevobench",
+    "title": "CoEvoBench: Can LLMs Drive Recursive Co-Evolution of Agentic Systems?",
+    "date": "2026-11-20",
+    "submitted_at": "2026-11-20T04:40:59Z",
+    "arxiv": "2611.27116",
+    "revision": "v1",
+    "authors": [
+      "Chuan Xiao",
+      "Baojie Wang",
+      "Haizhao Fan",
+      "Hongzhe Du",
+      "Xander Xu"
+    ],
+    "affiliations": [
+      "Zhejiang University; Alibaba Group; Shanghai Jiao Tong University. Individual mapping: Not verified because the inspected HTML loses author superscripts."
+    ],
+    "taxonomy": "Co-evolution evaluation / research decisions",
+    "evidence_boundary": "Weighted aggregate; audit sanctions and incomplete public runtime acceptance",
+    "source_sections": [
+      "Sections 3-5; Tables 1-3; Appendices 14,18-19",
+      "Pinned official README and BFCL provenance module"
+    ],
+    "code_url": "https://github.com/AlibabaResearch/CoEvoBench",
+    "code_commit": "d39a924c8985806933c94777d8e969d6e756262c",
+    "code_status": "Substantive partial implementation; current image acceptance and final-evaluation gaps documented; historical equivalence unverified",
+    "primary_class": "cs.AI",
+    "doi_status": "arXiv record reports registration pending at inspection",
+    "year": 2026,
+    "paper_url": "https://arxiv.org/abs/2611.27116",
+    "doi": "10.48550/arXiv.2611.27116",
+    "reviewed_version_url": "https://arxiv.org/html/2611.27116v1",
+    "note_filename": "coevobench.md",
+    "note_path": "papers/2026/coevobench.md",
+    "status": "primary-full-text-reviewed",
+    "venue": "arXiv preprint; no peer-reviewed venue verified",
+    "review_date": "2026-11-25",
+    "reproduction_status": "Not run",
+    "independent_replication": false
+  },
+  {
+    "id": "automaster",
+    "title": "AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher",
+    "date": "2026-11-19",
+    "submitted_at": "2026-11-19T17:57:59Z",
+    "revision_date": "2026-11-20",
+    "arxiv": "2611.26510",
+    "revision": "v2",
+    "authors": [
+      "Guoxin Chen",
+      "Shuang Sun",
+      "Fanzhe Meng",
+      "Xinyu Tang",
+      "Ruihua Song",
+      "Wayne Xin Zhao"
+    ],
+    "affiliations": [
+      "Gaoling School of Artificial Intelligence, Renmin University of China"
+    ],
+    "taxonomy": "Skill-guided demonstrations / autonomous post-training",
+    "evidence_boundary": "Students restart from base; benchmark feedback informs selection; partial artifact release",
+    "source_sections": [
+      "Sections 3-5; Table 1; Appendices A.1-A.6",
+      "Pinned official README and repository file inventory"
+    ],
+    "code_url": "https://github.com/RUCAIBox/AutoMaster",
+    "code_commit": "116c295dfdb7729e8f8684d85dea867c5fd9806e",
+    "code_status": "Partial release: nine skills, inference recipes, and AweAgent submodule; complete autonomous training controller not found",
+    "primary_class": "cs.CL",
+    "doi_status": "arXiv-listed DOI; independent resolver audit not performed",
+    "year": 2026,
+    "paper_url": "https://arxiv.org/abs/2611.26510",
+    "doi": "10.48550/arXiv.2611.26510",
+    "reviewed_version_url": "https://arxiv.org/html/2611.26510v2",
+    "note_filename": "automaster.md",
+    "note_path": "papers/2026/automaster.md",
+    "status": "primary-full-text-reviewed",
+    "venue": "arXiv preprint; no peer-reviewed venue verified",
+    "review_date": "2026-11-25",
+    "reproduction_status": "Not run",
+    "independent_replication": false
+  },
+  {
     "id": "ahe-beta",
     "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
     "year": 2026,

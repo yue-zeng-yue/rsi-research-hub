@@ -23,6 +23,7 @@ Independent component scores can be misleading. An updated model may use a diffe
 | [Teacher-free co-evolution](https://arxiv.org/abs/2611.15268) | Separate gates and factorial layer ablation | Risk-aware selection of multiple competing pairs |
 | [TRUST](https://arxiv.org/abs/2611.10787) | Context-guided online testing with false-evolution-rate control under assumptions | Pair-specific and family-specific risk estimation beyond an aggregate admission gate |
 | [Self-Improvement Memory](https://arxiv.org/abs/2611.18856) | Optimizer memory that transfers across compatible task/model changes | Predictive pair selection beyond replaying structured revision evidence |
+| [CoEvoBench](../papers/2026/coevobench.md) | Researcher-controlled model/harness interventions and crossed evaluations | Predict the next useful pairing at equal total cost; interaction measurement alone is insufficient novelty |
 
 ## Limitations of Existing Methods
 

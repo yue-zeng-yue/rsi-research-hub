@@ -1,6 +1,12 @@
 # Research Trends and Evidence Gaps in Recursive Self-Improvement
 
-**Literature cutoff: 2026-11-19.** This is a critical synthesis of the indexed primary sources, not an exhaustive systematic review. Numerical claims below are author-reported and were checked against the cited paper version; this repository has not independently rerun them. Proposed mechanisms are labeled as hypotheses.
+**Latest incremental review: 2026-11-25; initial synthesis: 2026-11-19.** This is a critical synthesis of the indexed primary sources, not an exhaustive systematic review. Earlier paper versions retain their original review dates. Numerical claims below are author-reported and were checked against the cited paper version; this repository has not independently rerun them. Proposed mechanisms are labeled as hypotheses.
+
+## November 20–25 update
+
+Four additions sharpen the existing research agenda. [CoEvoBench](../papers/2026/coevobench.md) supplies a close evaluation setting for choosing between model and harness interventions; [AutoMaster](../papers/2026/automaster.md) separates teacher behavior shaping from student-weight succession; [SelfWrite](../papers/2026/selfwrite.md) makes the updated model the next direct-weight editor; and [TT-RSI](../papers/2026/tt-rsi.md) links refinement and adaptation on unlabeled target questions.
+
+**Synthesis:** compare these methods by the component improved, information available, retained state, and complete resource cost before comparing their scores. None removes the need to distinguish product gains from better-improver evidence. The [dated report](updates/2026-11-25.md) records admission decisions, pending leads, and implications for the roadmap.
 
 ## Established Findings
 
