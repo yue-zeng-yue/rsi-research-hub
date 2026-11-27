@@ -1,0 +1,44 @@
+{
+  "review_date": "2026-11-27",
+  "review_timezone": "Asia/Shanghai",
+  "baseline_commit": "35a4cb0c5ef4fc8a9d7c4aeef79f39218a2125f3",
+  "discovery_window": "2026-11-25 to 2026-11-27, plus the earlier unresolved November catalog backlog",
+  "search_scope": [
+    "Date-qualified RSI, harness evolution, model editing, meta-improvement and co-evolution queries",
+    "OpenReview discovery query and exact-title arXiv records",
+    "Versioned primary text and PDF title pages; author project pages and code when linked"
+  ],
+  "prior_reviewed_count": 40,
+  "reviewed_count": 42,
+  "admitted": [
+    {
+      "arxiv": "2611.34675",
+      "revision": "v1",
+      "code_commit": "cd0a8ee12dd9e4616d8804ef5ffed537d4f5d63d"
+    },
+    {
+      "arxiv": "2611.21885",
+      "revision": "v2",
+      "decision": "Previously queued backlog; not a newly published work in the search window"
+    }
+  ],
+  "discovery_only": [
+    {
+      "arxiv": "2611.31117",
+      "title": "Self-Upgrading Embodied Agents",
+      "decision": "Identity confirmed; held-out and cross-round evidence not yet fully audited"
+    },
+    {
+      "arxiv": "2611.24578",
+      "title": "BaseRSI",
+      "decision": "Previously queued; not included in this full-review count"
+    }
+  ],
+  "limits": "Bounded search and selective full-text admission; no claim of exhaustive coverage, peer-reviewed acceptance, or experimental reproduction.",
+  "validation_scope": [
+    "Pinned npm dependency install with scripts disabled",
+    "Markdown lint and staged whitespace checks",
+    "Catalog count, IDs, dates, bibliography, template headings and relative-link checks",
+    "Staged scope and sensitive-content inspection"
+  ]
+}

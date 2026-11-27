@@ -36,7 +36,7 @@ The current model programs low-rank edits using weight and activation tools. Eig
 
 ## Key Contributions
 
-**Review assessment:** succession of the edited model is an explicit recursive mechanism. It still needs a separate causal test of whether the later editor is better at editing. Nearby November work includes [Language Models Can Rewrite Their Own Weights](https://arxiv.org/abs/2611.21885) and [BaseRSI](https://arxiv.org/abs/2611.24578); their identities were checked, but their full comparative review is pending. No priority claim is endorsed here.
+**Review assessment:** succession of the edited model is an explicit recursive mechanism. It still needs a separate causal test of whether the later editor is better at editing. Nearby November work includes [Language Models Can Rewrite Their Own Weights](self-rewriting.md), whose inspected sessions restart from base, and [BaseRSI](https://arxiv.org/abs/2611.24578), whose catalog admission remains pending. No priority claim is endorsed here.
 
 ## Experimental Setup
 

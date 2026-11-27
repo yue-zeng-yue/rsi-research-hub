@@ -1,5 +1,55 @@
 [
   {
+    "id": "roboevo2",
+    "title": "RoboEvo²: Recursive Robot Self-Improvement via Harness–Policy Co-Evolution",
+    "date": "2026-11-25",
+    "submitted_at": "2026-11-25T16:39:10Z",
+    "arxiv": "2611.34675",
+    "revision": "v1",
+    "authors": [
+      "Chenzhi Liu",
+      "Jiehong Lin",
+      "Wei Huang",
+      "Xuzhao Huang",
+      "Haoyuan Li",
+      "Yang Zhang",
+      "Junchao Huang",
+      "Chenyeyang Cai",
+      "Bo Wang",
+      "Kazuhiro Kosuge",
+      "Zhongrui Wang",
+      "Xiaojuan Qi"
+    ],
+    "affiliations": [
+      "The University of Hong Kong",
+      "Zhejiang University",
+      "Southern University of Science and Technology",
+      "The Chinese University of Hong Kong, Shenzhen",
+      "City University of Hong Kong"
+    ],
+    "taxonomy": "Harness–policy co-evolution",
+    "evidence_boundary": "Episode-seed transfer; external coding agent and incomplete total-cost accounting",
+    "source_sections": [
+      "Sections 3–4; Figure 3; Tables 2, 3, 5, 16; Appendices C, D, G, H"
+    ],
+    "code_url": "https://github.com/kaiknower/RoboEvo2",
+    "code_status": "Author-linked implementation inspected; native runtime parity not verified",
+    "primary_class": "cs.RO",
+    "doi_status": "arXiv-issued DOI listed by the source record; not a venue DOI",
+    "year": 2026,
+    "paper_url": "https://arxiv.org/abs/2611.34675",
+    "doi": "10.48550/arXiv.2611.34675",
+    "reviewed_version_url": "https://arxiv.org/html/2611.34675v1",
+    "note_filename": "roboevo2.md",
+    "note_path": "papers/2026/roboevo2.md",
+    "status": "primary-full-text-reviewed",
+    "venue": "arXiv preprint; no peer-reviewed venue verified",
+    "review_date": "2026-11-27",
+    "reproduction_status": "Not run",
+    "independent_replication": false,
+    "code_commit": "cd0a8ee12dd9e4616d8804ef5ffed537d4f5d63d"
+  },
+  {
     "id": "tt-rsi",
     "title": "Beyond Self-Consistency: Recursive Self-Improvement at Test Time",
     "date": "2026-11-23",
@@ -286,6 +336,56 @@
     "evidence_boundary": "No task evaluation inside loop; outcome evaluation still required",
     "independent_replication": false,
     "revision": "v1"
+  },
+  {
+    "id": "self-rewriting",
+    "title": "Language Models Can Rewrite Their Own Weights",
+    "date": "2026-11-16",
+    "submitted_at": "2026-11-16T20:55:08Z",
+    "arxiv": "2611.21885",
+    "revision": "v2",
+    "authors": [
+      "Jiajun Fan",
+      "Neil He",
+      "Changyi Yang",
+      "Andy Mao",
+      "Xi Zhu",
+      "Chaoran Cheng",
+      "Kaiqu Liang",
+      "Shuaike Shen",
+      "Zetian Li",
+      "Ruihan Guo",
+      "Ge Liu"
+    ],
+    "affiliations": [
+      "University of Illinois Urbana-Champaign",
+      "Carnegie Mellon University",
+      "Rutgers University",
+      "Princeton University",
+      "Stanford University",
+      "Yale University"
+    ],
+    "taxonomy": "Direct weight editing / fixed editor",
+    "evidence_boundary": "Independent restarts from base; selected gain on same-source mathematics",
+    "source_sections": [
+      "Sections 2–4; Figure 1; Tables 1, 8, 13; Appendices A, C, D, E.9"
+    ],
+    "code_url": null,
+    "code_status": "Not verified: author project has demonstrations, no runnable author implementation located",
+    "primary_class": "cs.AI",
+    "doi_status": "arXiv-issued DOI listed by the source record; not a venue DOI",
+    "year": 2026,
+    "paper_url": "https://arxiv.org/abs/2611.21885",
+    "doi": "10.48550/arXiv.2611.21885",
+    "reviewed_version_url": "https://arxiv.org/html/2611.21885v2",
+    "note_filename": "self-rewriting.md",
+    "note_path": "papers/2026/self-rewriting.md",
+    "status": "primary-full-text-reviewed",
+    "venue": "arXiv preprint; no peer-reviewed venue verified",
+    "review_date": "2026-11-27",
+    "reproduction_status": "Not run",
+    "independent_replication": false,
+    "revision_submitted_at": "2026-11-18T08:57:59Z"
   },
   {
     "id": "sim",

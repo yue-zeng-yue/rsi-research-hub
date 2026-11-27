@@ -16,7 +16,7 @@
 
 | Reviewed papers | Research areas | Algorithm proposals | Benchmark guides |
 | :---: | :---: | :---: | :---: |
-| **[40](papers/paper-index.md)** | **[5](#research-map)** | **[4](#from-evidence-to-experiments)** | **[6](experiments/benchmarks.md)** |
+| **[42](papers/paper-index.md)** | **[5](#research-map)** | **[4](#from-evidence-to-experiments)** | **[6](experiments/benchmarks.md)** |
 
 This hub connects the RSI literature to critical synthesis, algorithm design, and controlled evaluation. We ask **what improves, why it improves, what the evidence supports, and which experiments could establish a new contribution**.
 
@@ -24,7 +24,7 @@ This hub connects the RSI literature to critical synthesis, algorithm design, an
 >
 > Literature and protocol development. Scientific results remain author-reported; **no independent reproductions have been run**. The four algorithm proposals are unvalidated hypotheses. See the [source audit](docs/source-audit.md) for scope and limitations.
 
-**Latest update:** [November 20–25 research progress](docs/updates/2026-11-25.md) — four new reviews covering co-evolution evaluation, skill-guided post-training, direct weight editing, and test-time adaptation. The report separates admitted papers, earlier omissions, and pending leads.
+**Latest update:** [November 27 source review](docs/updates/2026-11-27.md) — two reviews separate direct weight editing under a fixed editor from reciprocal harness–policy adaptation.
 
 ## Start exploring
 
@@ -37,7 +37,7 @@ This hub connects the RSI literature to critical synthesis, algorithm design, an
     </td>
     <td width="50%" valign="top">
       <h3>02 / Read the literature</h3>
-      <p>Explore 40 structured reviews with source locators, limitations, and reproduction status.</p>
+      <p>Explore 42 structured reviews with source locators, limitations, and reproduction status.</p>
       <a href="papers/paper-index.md">Paper index →</a> &nbsp; <a href="papers/README.md">Reading routes →</a>
     </td>
   </tr>
@@ -92,12 +92,12 @@ Recent papers in the reviewed collection, ordered by **first public date**. This
 
 | Published | Paper | What to examine |
 | --- | --- | --- |
+| Nov 25, 2026 | **[RoboEvo²](papers/2026/roboevo2.md)** | Reciprocal robot adaptation; policy-only success versus harness-assisted recovery |
 | Nov 23, 2026 | **[TT-RSI](papers/2026/tt-rsi.md)** | Unlabeled test-input adaptation; distinguish output-token matching from total compute |
 | Nov 22, 2026 | **[SelfWrite](papers/2026/selfwrite.md)** | The edited model becomes the next editor; fixed-gate selection and limited domain coverage |
 | Nov 20, 2026 | **[CoEvoBench](papers/2026/coevobench.md)** | Model–harness research decisions under a resource envelope; audit and implementation limits |
-| Nov 19, 2026 | **[AutoMaster](papers/2026/automaster.md)** | Skill-guided demonstrations; students restart from base and benchmark feedback informs selection |
 
-**[Browse all 40 reviews →](papers/paper-index.md)** &nbsp; · &nbsp; [Machine-readable catalog](data/papers.json) &nbsp; · &nbsp; [BibTeX](references.bib)
+**[Browse all 42 reviews →](papers/paper-index.md)** &nbsp; · &nbsp; [Machine-readable catalog](data/papers.json) &nbsp; · &nbsp; [BibTeX](references.bib)
 
 <details>
 <summary><strong>Eight anchor papers for a deeper reading path</strong></summary>
@@ -141,7 +141,7 @@ These are **research hypotheses**, not original results. HMED, SIM, TRUST, and r
 | Implementations and data | [Frameworks](resources/frameworks.md) · [Datasets](resources/datasets.md) · [Open-source projects](resources/open-source-projects.md) |
 | Review and experiment formats | [Paper review template](templates/paper-review.md) · [Experiment report template](templates/experiment-report.md) |
 | Provenance and citations | [Source audit](docs/source-audit.md) · [Paper metadata](data/papers.json) · [Bibliography](references.bib) · [CITATION.cff](CITATION.cff) |
-| Maintenance | [Contribution guidelines](CONTRIBUTING.md) · [Latest validation](data/incremental-review-2026-11-25.json) · [Initial validation](data/repository-validation.json) · [Roadmap](ROADMAP.md) |
+| Maintenance | [Contribution guidelines](CONTRIBUTING.md) · [Latest validation](data/incremental-review-2026-11-27.json) · [Initial validation](data/repository-validation.json) · [Roadmap](ROADMAP.md) |
 
 ## Contribute
 
@@ -158,7 +158,7 @@ npm run lint
 git diff --check
 ```
 
-These commands check documentation, not scientific correctness. Citation review, local-link checks, data provenance, and sensitive-file inspection are additional requirements. The pinned GitHub Actions workflow runs on pushes and pull requests. See the [latest validation record](data/incremental-review-2026-11-25.json) for the scope of current local checks; publication and hosted execution are recorded in Git history and Actions.
+These commands check documentation, not scientific correctness. Citation review, local-link checks, data provenance, and sensitive-file inspection are additional requirements. The pinned GitHub Actions workflow runs on pushes and pull requests. See the [latest validation record](data/incremental-review-2026-11-27.json) for the scope of current local checks; publication and hosted execution are recorded in Git history and Actions.
 
 </details>
 

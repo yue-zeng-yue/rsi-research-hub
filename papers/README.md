@@ -1,6 +1,6 @@
 # Paper Review Guide
 
-The [paper index](paper-index.md) links **40 primary-full-text-reviewed papers** and canonical sources. The [machine-readable catalog](../data/papers.json) preserves metadata and inspected sections; the [bibliography](../references.bib) supports manuscript preparation. The latest incremental review is dated 2026-11-25; earlier records retain their own inspection dates. This is a selective update, not exhaustive coverage through that date.
+The [paper index](paper-index.md) links **42 primary-full-text-reviewed papers** and canonical sources. The [machine-readable catalog](../data/papers.json) preserves metadata and inspected sections; the [bibliography](../references.bib) supports manuscript preparation. The latest incremental review is dated 2026-11-27; earlier records retain their own inspection dates. This is a selective update, not exhaustive coverage through that date.
 
 Each admitted paper has 15 fields: full title; authors/affiliations; publication date; venue; paper URL/DOI; official code; problem; method; contributions; setup; benchmarks/baselines; quantitative results; limitations; reproducibility; and open questions. Reviews summarize original sources in independent academic prose and add clearly identified critical analysis.
 
@@ -43,3 +43,5 @@ Read the [trend report](../docs/research-trends.md) and four research proposals 
 The [November 20–25 update](../docs/updates/2026-11-25.md) adds [CoEvoBench](2026/coevobench.md), [AutoMaster](2026/automaster.md), [SelfWrite](2026/selfwrite.md), and [TT-RSI](2026/tt-rsi.md). Read them together to distinguish research decisions, teacher interventions, editor succession, and transductive adaptation. Their dates follow first arXiv submission in UTC; a revision or local-calendar date is recorded separately.
 
 The initial search used the supplied candidates, the follow-rsi discovery repository, exact-title queries, and expanded queries for November 2026 harness, meta-improvement, evaluation, and co-evolution research. See [source-audit.md](../docs/source-audit.md) for scope, evidence boundaries, and unresolved items. New leads are not counted until their primary full text is reviewed.
+
+The [November 27 review](../docs/updates/2026-11-27.md) adds [RoboEvo²](2026/roboevo2.md) and [Language Models Can Rewrite Their Own Weights](2026/self-rewriting.md). Compare the unit of improvement: a motor policy, a harness, an edited language model, or the editor itself.
