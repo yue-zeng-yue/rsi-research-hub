@@ -1,6 +1,6 @@
 # Research Trends and Evidence Gaps in Recursive Self-Improvement
 
-**Latest incremental review: 2026-11-25; initial synthesis: 2026-11-19.** This is a critical synthesis of the indexed primary sources, not an exhaustive systematic review. Earlier paper versions retain their original review dates. Numerical claims below are author-reported and were checked against the cited paper version; this repository has not independently rerun them. Proposed mechanisms are labeled as hypotheses.
+**Latest incremental synthesis: 2026-11-28; initial synthesis: 2026-11-19.** This is a critical synthesis of the indexed primary sources, not an exhaustive systematic review. Earlier paper versions retain their original review dates. Numerical claims below are author-reported and were checked against the cited paper version; this repository has not independently rerun them. Proposed mechanisms are labeled as hypotheses.
 
 ## November 20–25 update
 
@@ -61,6 +61,8 @@ The November 18 [AHE-Beta](https://arxiv.org/abs/2611.24924) extends this direct
 **From executor efficiency to whole-loop economics.** The RSI Tax motivates charging for unsuccessful verification. SoL-Pi studies token-saving mechanisms with explicit quality tradeoffs. ELITE removes downstream candidate task evaluation from the search loop and uses implementation inspection and validity gates, but still requires generation, integration, and scientific outcome evaluation. [The RSI Tax](https://arxiv.org/abs/2611.13524), [SoL-Pi](https://arxiv.org/abs/2609.20519), [ELITE](https://arxiv.org/abs/2611.21056).
 
 **From greedy gates and ad hoc memory to explicit statistical and transfer mechanisms.** TRUST supplies online false-evolution-rate control under stated overlap and sampling assumptions; its guarantee is not universal no-regression. Self-Improvement Memory stores structured optimizer-side revision evidence across compatible model or task changes. These November papers materially narrow the novelty space: an LLM-guided acceptance gate or structured transfer memory alone is already prior art. [TRUST](https://arxiv.org/abs/2611.10787), [SIM](https://arxiv.org/abs/2611.18856).
+
+**Transfer gates and persistent-state controls now have closer baselines.** [TransHarness](../papers/2026/transharness.md) replays archived source contrasts to screen trigger timing before a frozen cross-benchmark evaluation. Its positive point estimates coexist with paired intervals that include zero and negative transfer with smaller archives; preserving existing successes is an explicit design objective, not a demonstrated universal guarantee. [EvoLink-Bench](../papers/2026/evolink-bench.md) separates Reset, Frozen and Evolving on interdependent tasks. Selected cohorts and unequal recorded usage prevent causal attribution. The combination narrows the research gap to matched-cost prospective selection and causal update value rather than the existence of transfer or the retention of state.
 
 ## Open Problems
 

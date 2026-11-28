@@ -1,0 +1,29 @@
+{
+  "review_date": "2026-11-28",
+  "review_timezone": "Asia/Shanghai",
+  "baseline_commit": "5b68116219e7f8590f8dd7977ac7067265790b22",
+  "discovery_window": "2026-11-25 through 2026-11-28, with selected earlier backlog",
+  "search_scope": [
+    "Date-qualified discovery across formal RSI, harness evolution, model editing, meta-improvement, and model–harness co-evolution",
+    "Recent arXiv category listings, exact-title searches and OpenReview discovery",
+    "Versioned arXiv methods, experiments, limitations or discussion and appendices; author artifact verification"
+  ],
+  "prior_reviewed_count": 42,
+  "reviewed_count": 44,
+  "admitted": [
+    {"arxiv": "2611.33757", "revision": "v1", "code_status": "Not verified: no author-linked release located"},
+    {"arxiv": "2611.34400", "revision": "v1", "code_commit": "110adacd7339040a12ecacd8da795d9fcbd0d21f"}
+  ],
+  "discovery_only": [
+    {"arxiv": "2611.34624", "title": "HoMe", "decision": "Original text and plugin lead located; full admission and implementation audit deferred"},
+    {"arxiv": "2609.24974", "title": "Harness-Zero", "decision": "Backfill candidate; not a new publication in this window"},
+    {"arxiv": "2611.31117", "title": "Self-Upgrading Embodied Agents", "decision": "Full split and cross-round evidence audit deferred"},
+    {"arxiv": "2611.24578", "title": "BaseRSI", "decision": "Previously queued; no admission in this increment"}
+  ],
+  "limits": "Selective review with publication and search-index latency; no experimental run, independent replication, or inference of venue acceptance. Listed arXiv DOI registrations were pending on inspection.",
+  "validation_scope": [
+    "Pinned npm install with lifecycle scripts disabled and Markdown lint",
+    "Catalog counts, bibliographic identifiers and sources, all review headings and local links",
+    "Staged whitespace, scope, English and sensitive-content inspection"
+  ]
+}

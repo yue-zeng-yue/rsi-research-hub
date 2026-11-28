@@ -1,6 +1,6 @@
 # Paper Index
 
-**42 primary-full-text-reviewed papers**, with the latest incremental inspection on **2026-11-27**. Earlier records retain their own review dates. All results are author-reported; **0 independent scientific reproductions** have been performed. All 19 requested seed candidates are resolved and reviewed.
+**44 primary-full-text-reviewed papers**, with the latest incremental inspection on **2026-11-28**. Earlier records retain their own review dates. All results are author-reported; **0 independent scientific reproductions** have been performed. All 19 requested seed candidates are resolved and reviewed.
 
 First-publication year determines placement. Exact author lists, affiliations, venue status, reviewed versions, setup, numerical conditions, and code availability appear in each 15-field review. This is a curated collection, not an exhaustive systematic review.
 
@@ -13,6 +13,8 @@ Canonical metadata: [papers.json](../data/papers.json). Citation export: [refere
 | First public date | Paper and review | Area | Primary source | Evidence boundary |
 | --- | --- | --- | --- | --- |
 | 2026-11-25 | [RoboEvo²: Recursive Robot Self-Improvement via Harness–Policy Co-Evolution](2026/roboevo2.md) | Harness–policy co-evolution | [Paper](https://arxiv.org/abs/2611.34675) | Episode-seed transfer; external coding agent and incomplete total-cost accounting |
+| 2026-11-25 | [EvoLink-Bench: A Benchmark for Evaluating Self-Evolving Agents in Long-Horizon Interdependent Task Streams](2026/evolink-bench.md) | Long-horizon evaluation / harness state | [Paper](https://arxiv.org/abs/2611.34400) | Selected unequal-cost cohorts; state retention is not verified learning |
+| 2026-11-25 | [TransHarness: From Benchmark Overfitting to Transferable Harness Evolution](2026/transharness.md) | Harness evolution / cross-benchmark transfer | [Paper](https://arxiv.org/abs/2611.33757) | Paired gain intervals include zero; partial and unequal search-cost accounting |
 | 2026-11-23 | [Beyond Self-Consistency: Recursive Self-Improvement at Test Time](2026/tt-rsi.md) | Test-time adaptation / refinement distillation | [Paper](https://arxiv.org/abs/2611.30965) | Transductive main evaluation; output-token matching excludes reference inputs |
 | 2026-11-22 | [Recursive Self-Editing: LLMs Program Their Own Weight Edits for Self-Improvement](2026/selfwrite.md) | Direct weight editing / editor succession | [Paper](https://arxiv.org/abs/2611.29513) | Single mathematics source; reused selection gate; four accepted edits in five generations |
 | 2026-11-20 | [CoEvoBench: Can LLMs Drive Recursive Co-Evolution of Agentic Systems?](2026/coevobench.md) | Co-evolution evaluation / research decisions | [Paper](https://arxiv.org/abs/2611.27116) | Weighted aggregate; audit sanctions and incomplete public runtime acceptance |

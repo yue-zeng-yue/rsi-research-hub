@@ -1,6 +1,6 @@
 # Source Audit and Verification Boundaries
 
-**Initial inspection:** 2026-11-19, Asia/Shanghai. **Latest incremental review:** 2026-11-27. Per-paper records retain their inspected versions and dates; older sources were not all re-audited. This curated collection does not claim exhaustive retrieval through either date. First-submission dates follow source records, separately from revisions and review dates.
+**Initial inspection:** 2026-11-19, Asia/Shanghai. **Latest incremental review:** 2026-11-28. Per-paper records retain their inspected versions and dates; older sources were not all re-audited. This curated collection does not claim exhaustive retrieval through either date. First-submission dates follow source records, separately from revisions and review dates.
 
 ## Discovery and admission
 
@@ -44,13 +44,17 @@ The synthesis preserves the following distinctions: search versus held-out perfo
 
 ## Repository validation
 
-The historical initialization validation record is [data/repository-validation.json](../data/repository-validation.json); the latest incremental record is [data/incremental-review-2026-11-27.json](../data/incremental-review-2026-11-27.json). Records distinguish file and paper counts, English-script and path checks, local-link checks, review-field checks, and sensitive-content screening. The initialization URL audit is [data/link-audit.json](../data/link-audit.json); failures identify transport or source-access gaps and do not silently disappear from the record. Markdown validation is configured through the pinned npm lockfile and GitHub Actions.
+The historical initialization validation record is [data/repository-validation.json](../data/repository-validation.json); the latest incremental record is [data/incremental-review-2026-11-28.json](../data/incremental-review-2026-11-28.json). Records distinguish file and paper counts, English-script and path checks, local-link checks, review-field checks, and sensitive-content screening. The initialization URL audit is [data/link-audit.json](../data/link-audit.json); failures identify transport or source-access gaps and do not silently disappear from the record. Markdown validation is configured through the pinned npm lockfile and GitHub Actions.
 
 Initialization checked 189 public source links: 186 were reachable and three OpenReview PDF endpoints returned HTTP 403 to the automated checker. Primary metadata and alternative full-text sources were used where available; the access limitation remains in the audit. All 76 initialization files were verified against the initial remote tree by blob hash. At the November 19 inspection, hosted documentation jobs could not start because of an account-level restriction; local Markdown validation passed. The historical validation record links that inspection's hosted attempt without presenting it as a passing check.
 
 The homepage refresh preserved the subsequent literature addition, checked 180 local Markdown, HTML, image, and heading links, and passed Markdown validation across 63 files. Both self-contained SVG illustrations were parsed and visually inspected; the published homepage's images, research-map navigation, and expandable section were checked in GitHub's renderer. These presentation checks do not expand the scientific review scope.
 
 These are documentation and provenance checks. They must never be cited as experimental confirmation of any algorithm in this repository.
+
+## Incremental review: 2026-11-28
+
+The [dated update](updates/2026-11-28.md) admits TransHarness v1 and EvoLink-Bench v1, bringing the count to 44. TransHarness paired gain intervals include zero; its archived-replay cost excludes collection and target evaluation. EvoLink-Bench provides a pinned runtime but the linked dataset was not verified against the paper manifests, and its historical contrasts are not equal-budget causal estimates. No previously admitted paper changed version.
 
 ## Incremental review: 2026-11-27
 

@@ -50,6 +50,97 @@
     "code_commit": "cd0a8ee12dd9e4616d8804ef5ffed537d4f5d63d"
   },
   {
+    "id": "evolink-bench",
+    "title": "EvoLink-Bench: A Benchmark for Evaluating Self-Evolving Agents in Long-Horizon Interdependent Task Streams",
+    "date": "2026-11-25",
+    "submitted_at": "2026-11-25T14:00:22Z",
+    "arxiv": "2611.34400",
+    "revision": "v1",
+    "authors": [
+      "Wei Chen",
+      "Xiaodong Lu",
+      "Weihao Shen",
+      "Gongxun Li",
+      "Xingyu Guo",
+      "Qihang Sun",
+      "Fuwei Zhang",
+      "Zhao Zhang",
+      "Yikun Ban",
+      "Shuang Li",
+      "Deqing Wang",
+      "Fuzhen Zhuang"
+    ],
+    "affiliations": [
+      "Beihang University"
+    ],
+    "taxonomy": "Long-horizon evaluation / harness state",
+    "evidence_boundary": "Selected unequal-cost cohorts; state retention is not verified learning",
+    "source_sections": [
+      "Sections 3–6; Tables 2–5; Appendices A, D, E; pinned runner and audit source"
+    ],
+    "code_url": "https://github.com/BUAA-Self-Evolving/EvoLink-Bench",
+    "code_status": "Author-linked runner and audit source inspected; historical release not complete",
+    "primary_class": "cs.AI",
+    "doi_status": "arXiv-issued DOI listed with registration pending; not a venue DOI",
+    "year": 2026,
+    "paper_url": "https://arxiv.org/abs/2611.34400",
+    "doi": "10.48550/arXiv.2611.34400",
+    "reviewed_version_url": "https://arxiv.org/html/2611.34400v1",
+    "note_filename": "evolink-bench.md",
+    "note_path": "papers/2026/evolink-bench.md",
+    "status": "primary-full-text-reviewed",
+    "venue": "arXiv preprint; peer-reviewed venue Not verified",
+    "review_date": "2026-11-28",
+    "reproduction_status": "Not run",
+    "independent_replication": false,
+    "code_commit": "110adacd7339040a12ecacd8da795d9fcbd0d21f"
+  },
+  {
+    "id": "transharness",
+    "title": "TransHarness: From Benchmark Overfitting to Transferable Harness Evolution",
+    "date": "2026-11-25",
+    "submitted_at": "2026-11-25T04:15:25Z",
+    "arxiv": "2611.33757",
+    "revision": "v1",
+    "authors": [
+      "Tianze Xia",
+      "Zimo Wang",
+      "Heng Tong",
+      "Zhaoxiang Liu",
+      "Shiguo Lian",
+      "Fan Huang",
+      "Wenyu Liu",
+      "Yunchao Wei",
+      "Xinggang Wang"
+    ],
+    "affiliations": [
+      "Huazhong University of Science and Technology",
+      "Unicom Data Intelligence, China Unicom",
+      "Xiamen University",
+      "Beijing Jiaotong University"
+    ],
+    "taxonomy": "Harness evolution / cross-benchmark transfer",
+    "evidence_boundary": "Paired gain intervals include zero; partial and unequal search-cost accounting",
+    "source_sections": [
+      "Sections 3–5; Tables 1–4; Appendices A–C, especially C.3–C.6"
+    ],
+    "code_url": null,
+    "code_status": "Not verified: no author-linked TransHarness implementation identified",
+    "primary_class": "cs.AI",
+    "doi_status": "arXiv-issued DOI listed with registration pending; not a venue DOI",
+    "year": 2026,
+    "paper_url": "https://arxiv.org/abs/2611.33757",
+    "doi": "10.48550/arXiv.2611.33757",
+    "reviewed_version_url": "https://arxiv.org/html/2611.33757v1",
+    "note_filename": "transharness.md",
+    "note_path": "papers/2026/transharness.md",
+    "status": "primary-full-text-reviewed",
+    "venue": "arXiv preprint; peer-reviewed venue Not verified",
+    "review_date": "2026-11-28",
+    "reproduction_status": "Not run",
+    "independent_replication": false
+  },
+  {
     "id": "tt-rsi",
     "title": "Beyond Self-Consistency: Recursive Self-Improvement at Test Time",
     "date": "2026-11-23",
